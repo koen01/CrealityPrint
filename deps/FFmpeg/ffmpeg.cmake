@@ -13,8 +13,11 @@ ExternalProject_Add(dep_FFmpeg
         "--enable-libx264"
         "--enable-static"
         "--disable-x86asm"
-	    "--disable-doc"
+	"--disable-doc"
         "--disable-inline-asm"
+        "--disable-vaapi"
+        "--disable-vdpau"
+        "--disable-libdrm"
     BUILD_IN_SOURCE ON
     BUILD_COMMAND ${_make_cmd}
     INSTALL_COMMAND ${_install_cmd}

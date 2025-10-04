@@ -38,6 +38,7 @@ function check_available_memory_and_disk() {
 function usage() {
     echo "Usage: ./BuildLinux.sh [-1][-b][-c][-d][-i][-r][-s][-u]"
     echo "   -1: limit builds to 1 core (where possible)"
+    echo "   -j N: limit builds to N cores (like make -jN)"
     echo "   -b: build in debug mode"
     echo "   -c: force a clean build"
     echo "   -d: build deps (optional)"
@@ -51,11 +52,15 @@ function usage() {
 }
 
 unset name
-while getopts ":1bcdghirsu" opt; do
+while getopts "1j:bcdghirsu" opt; do
   case ${opt} in
     1 )
         export CMAKE_BUILD_PARALLEL_LEVEL=1
         ;;
+    j )
+        export CMAKE_BUILD_PARALLEL_LEVEL=${OPTARG}
+        ;;
+
     b )
         BUILD_DEBUG="1"
         ;;
@@ -177,12 +182,13 @@ then
         BUILD_ARGS="${BUILD_ARGS} -DBBL_RELEASE_TO_PUBLIC=1 -DBBL_INTERNAL_TESTING=0 -DUPDATE_ONLINE_MACHINES=1"
     fi
     echo -e "cmake -S . -B build -G Ninja -DCMAKE_PREFIX_PATH="${DPS_PATH}/usr/local" -DSLIC3R_STATIC=1 ${BUILD_ARGS}"
-    cmake -S . -B build -G Ninja \
+    CXXFLAGS="-fpermissive -Wno-error" cmake -S . -B build -G Ninja \
         -DCMAKE_PREFIX_PATH="${DPS_PATH}/usr/local" \
         -DSLIC3R_STATIC=1 \
         -DORCA_TOOLS=ON \
         -DGENERATE_ORCA_HEADER=0 \
         -DENABLE_BREAKPAD=OFF \
+        -DCMAKE_CXX_STANDARD=17 \
         ${BUILD_ARGS}
     echo "done"
     echo "Building CrealityPrint ..."

@@ -1,272 +1,203 @@
-Directory  does not exist.
-FOUND_GTK3=un  libgtk-3-0                   <none>       <none>       (no description available)
-ii  libgtk-3-0t64:arm64          3.24.49-3    arm64        GTK graphical user interface library
-ii  libgtk-3-bin                 3.24.49-3    arm64        programs for the GTK graphical user interface library
-ii  libgtk-3-common              3.24.49-3    all          common files for the GTK graphical user interface library
-ii  libgtk-3-dev:arm64           3.24.49-3    arm64        development files for the GTK library
-un  libgtk-3-doc                 <none>       <none>       (no description available)
-Changing date in version...
-done
-Configuring dependencies...
-cmake -S deps -B deps/build -G Ninja -DDEP_WX_GTK3=ON
--- OrcaSlicer deps DESTDIR: /home/koen/CrealityPrint/deps/build/destdir/usr/local/
--- OrcaSlicer dowload dir for source packages: /home/koen/CrealityPrint/deps/build/../DL_CACHE
--- OrcaSlicer deps debug build: 
--- Forcing CMAKE_BUILD_TYPE to Release as it was not specified.
--- CR_TPMS Linux _output: aarch64
--- Breakpad is enabled...
--- Configuring done (0.9s)
--- Generating done (0.1s)
--- Build files have been written to: /home/koen/CrealityPrint/deps/build
-[1/35] No patch step for 'dep_metartc'
-[2/35] Performing configure step for 'dep_metartc'
-CMake Deprecation Warning at CMakeLists.txt:1 (cmake_minimum_required):
-  Compatibility with CMake < 3.10 will be removed from a future version of
-  CMake.
+Emptying app dir 'build-dir'
+Downloading sources
+Downloading https://gstreamer.freedesktop.org/src/gst-plugins-good/gst-plugins-good-1.22.8.tar.xz
+Downloading https://ftp.osuosl.org/pub/blfs/conglomeration/glu/glu-9.0.2.tar.xz
+Initialized empty Git repository in /home/koen/CrealityPrint/.flatpak-builder/git/https_github.com_KDE_extra-cmake-modules-H44XD3/
+Fetching git repo https://github.com/KDE/extra-cmake-modules, ref refs/tags/v5.249.0
+Downloading https://github.com/FreeSpacenav/libspnav/releases/download/v1.2/libspnav-1.2.tar.gz
+Downloading https://github.com/ebiggers/libdeflate/releases/download/v1.19/libdeflate-1.19.tar.gz
+Downloading https://github.com/Esri/lerc/archive/refs/tags/v4.0.0.tar.gz
+Downloading https://sourceware.org/pub/bzip2/bzip2-1.0.8.tar.gz
+Downloading https://github.com/sctplab/usrsctp/archive/refs/tags/0.9.4.0.tar.gz
+Initialized empty Git repository in /home/koen/CrealityPrint/.flatpak-builder/git/https_code.videolan.org_videolan_x264.git-2CTXD3/
+Fetching git repo https://code.videolan.org/videolan/x264.git, ref refs/heads/master
+Downloading https://github.com/CrealityOfficial/Orca-deps-wxWidgets/archive/refs/tags/v1.0.0.tar.gz
+Downloading https://github.com/tamasmeszaros/c-blosc/archive/refs/heads/v1.17.0_tm.zip
+Downloading https://github.com/USCiLab/cereal/archive/refs/tags/v1.3.0.zip
+Downloading https://github.com/CGAL/cgal/archive/refs/tags/v5.4.zip
+Downloading https://github.com/SoftFever/OrcaSlicer_deps/releases/download/gmp-6.2.1/gmp-6.2.1.tar.bz2
+Downloading https://github.com/curl/curl/archive/refs/tags/curl-7_75_0.zip
+Downloading https://www.mpfr.org/mpfr-4.2.1/mpfr-4.2.1.tar.bz2
+Downloading https://github.com/stevengj/nlopt/archive/v2.5.0.tar.gz
+Downloading https://github.com/Open-Cascade-SAS/OCCT/archive/refs/tags/V7_6_0.zip
+Downloading https://github.com/floriankirsch/OpenCSG/archive/refs/tags/opencsg-1-4-2-release.zip
+Downloading https://github.com/opencv/opencv/archive/refs/tags/4.6.0.tar.gz
+Downloading https://github.com/AcademySoftwareFoundation/openexr/archive/refs/tags/v2.5.5.zip
+Downloading https://github.com/openssl/openssl/archive/OpenSSL_1_1_1w.tar.gz
+Downloading https://github.com/tamasmeszaros/openvdb/archive/a68fd58d0e2b85f01adeb8b13d7555183ab10aa5.zip
+Downloading https://github.com/qhull/qhull/archive/v8.0.1.zip
+Downloading https://github.com/oneapi-src/oneTBB/archive/refs/tags/v2021.5.0.zip
+Downloading https://github.com/boostorg/boost/releases/download/boost-1.84.0/boost-1.84.0.tar.gz
+Downloading https://github.com/glfw/glfw/archive/refs/tags/3.3.7.zip
+Downloading https://github.com/SoftFever/Orca-deps-libnoise/archive/refs/tags/1.0.zip
+Downloading https://github.com/assimp/assimp/archive/refs/tags/v5.4.3.zip
+Downloading https://ffmpeg.org/releases/ffmpeg-4.2.tar.bz2
+Downloading https://github.com/CrealityOfficial/metartc/archive/refs/tags/v1.0.0.tar.gz
+Downloading https://github.com/aliyun/aliyun-oss-cpp-sdk/archive/refs/tags/1.9.2.zip
+Downloading https://github.com/google/breakpad/archive/refs/tags/v2023.06.01.zip
+Downloading https://github.com/eclipse-paho/paho.mqtt.c/archive/refs/tags/v1.3.15.tar.gz
+Downloading https://github.com/eclipse-paho/paho.mqtt.cpp/archive/refs/tags/v1.4.0.zip
+Initializing build dir
+Committing stage init to cache
+Starting build of io.github.crealityofficial.CrealityPrint
+========================================================================
+Building module gst-plugins-good in /home/koen/CrealityPrint/.flatpak-builder/build/gst-plugins-good-1
+========================================================================
+The Meson build system
+Version: 1.5.2
+Source dir: /run/build/gst-plugins-good
+Build dir: /run/build/gst-plugins-good/_flatpak_build
+Build type: native build
+Project name: gst-plugins-good
+Project version: 1.22.8
+C compiler for the host machine: ccache cc (gcc 14.3.0 "cc (GCC) 14.3.0")
+C linker for the host machine: cc ld.bfd 2.45
+Host machine cpu family: aarch64
+Host machine cpu: aarch64
+C++ compiler for the host machine: ccache c++ (gcc 14.3.0 "c++ (GCC) 14.3.0")
+C++ linker for the host machine: c++ ld.bfd 2.45
+Compiler for C supports link arguments -Wl,-Bsymbolic-functions: YES 
+Compiler for C++ supports link arguments -Wl,-Bsymbolic-functions: YES 
+Compiler for C supports link arguments -Wl,-z,nodelete: YES 
+Compiler for C++ supports link arguments -Wl,-z,nodelete: YES 
+Compiler for C supports arguments -fvisibility=hidden: YES 
+Compiler for C supports arguments -fno-strict-aliasing: YES 
+Message: Disabling GLib cast checks
+Has header "dlfcn.h" : YES 
+Has header "fcntl.h" : YES 
+Has header "inttypes.h" : YES 
+Has header "memory.h" : YES 
+Has header "process.h" : NO 
+Has header "stdint.h" : YES 
+Has header "stdlib.h" : YES 
+Has header "strings.h" : YES 
+Has header "string.h" : YES 
+Has header "sys/ioctl.h" : YES 
+Has header "sys/param.h" : YES 
+Has header "sys/socket.h" : YES 
+Has header "sys/stat.h" : YES 
+Has header "sys/time.h" : YES 
+Has header "sys/types.h" : YES 
+Has header "unistd.h" : YES 
+Library m found: YES
+Checking for function "asinh" with dependency -lm: YES 
+Checking for function "clock_gettime" with dependency -lm: YES 
+Checking for function "cosh" with dependency -lm: YES 
+Checking for function "dcgettext" with dependency -lm: YES 
+Checking for function "getpagesize" with dependency -lm: YES 
+Checking for function "isinf" with dependency -lm: YES 
+Checking for function "mmap" with dependency -lm: YES 
+Checking for function "mmap64" with dependency -lm: NO 
+Checking for function "sinh" with dependency -lm: YES 
+Checking for function "gmtime_r" with dependency -lm: YES 
+Checking for size of "char" : 1 
+Checking for size of "int" : 4 
+Checking for size of "long" : 8 
+Checking for size of "short" : 2 
+Checking for size of "void*" : 8 
+Checking for size of "off_t" : 8 
+Header "dlfcn.h" has symbol "RTLD_NOLOAD" : YES 
+Compiler for C supports arguments -Wmissing-declarations: YES 
+Compiler for C++ supports arguments -Wmissing-declarations: YES 
+Compiler for C supports arguments -Wredundant-decls: YES 
+Compiler for C++ supports arguments -Wredundant-decls: YES 
+Compiler for C supports arguments -Wwrite-strings: YES 
+Compiler for C++ supports arguments -Wwrite-strings: YES 
+Compiler for C supports arguments -Winit-self: YES 
+Compiler for C++ supports arguments -Winit-self: YES 
+Compiler for C supports arguments -Wmissing-include-dirs: YES 
+Compiler for C++ supports arguments -Wmissing-include-dirs: YES 
+Compiler for C supports arguments -Wno-multichar: YES 
+Compiler for C++ supports arguments -Wno-multichar: YES 
+Compiler for C supports arguments -Wvla: YES 
+Compiler for C++ supports arguments -Wvla: YES 
+Compiler for C supports arguments -Wpointer-arith: YES 
+Compiler for C++ supports arguments -Wpointer-arith: YES 
+Compiler for C supports arguments -Wmissing-prototypes: YES 
+Compiler for C supports arguments -Wold-style-definition: YES 
+Compiler for C supports arguments -Waggregate-return: YES 
+Found pkg-config: YES (/usr/bin/pkg-config) 2.5.1
+Run-time dependency gstreamer-1.0 found: YES 1.24.12
+Run-time dependency gstreamer-base-1.0 found: YES 1.24.12
+Run-time dependency gstreamer-net-1.0 found: YES 1.24.12
+Run-time dependency gstreamer-controller-1.0 found: YES 1.24.12
+Dependency gstreamer-check-1.0 skipped: feature tests disabled
+Run-time dependency gstreamer-pbutils-1.0 found: YES 1.24.12
+Run-time dependency gstreamer-allocators-1.0 found: YES 1.24.12
+Run-time dependency gstreamer-app-1.0 found: YES 1.24.12
+Run-time dependency gstreamer-audio-1.0 found: YES 1.24.12
+Run-time dependency gstreamer-fft-1.0 found: YES 1.24.12
+Run-time dependency gstreamer-riff-1.0 found: YES 1.24.12
+Run-time dependency gstreamer-rtp-1.0 found: YES 1.24.12
+Run-time dependency gstreamer-rtsp-1.0 found: YES 1.24.12
+Run-time dependency gstreamer-sdp-1.0 found: YES 1.24.12
+Run-time dependency gstreamer-tag-1.0 found: YES 1.24.12
+Run-time dependency gstreamer-video-1.0 found: YES 1.24.12
+Run-time dependency gstreamer-gl-1.0 found: YES 1.24.12
+Message: GStreamer OpenGL window systems: egl surfaceless wayland x11
+Message: GStreamer OpenGL platforms: egl glx
+Message: GStreamer OpenGL apis: gles2 gl
+Run-time dependency gstreamer-gl-prototypes-1.0 found: YES 1.24.12
+Run-time dependency gstreamer-gl-x11-1.0 found: YES 1.24.12
+Run-time dependency gstreamer-gl-wayland-1.0 found: YES 1.24.12
+Run-time dependency gstreamer-gl-egl-1.0 found: YES 1.24.12
+Run-time dependency zlib found: YES 1.3.1
+Run-time dependency gio-2.0 found: YES 2.82.5
+Run-time dependency gmodule-no-export-2.0 found: YES 2.82.5
+Dependency orc-0.4 skipped: feature orc disabled
+Program orcc skipped: feature orc disabled
+Message: Orc Compiler not found, will use backup C code
+Header "gst/gstconfig.h" has symbol "GST_DISABLE_GST_DEBUG" with dependency gstreamer-1.0: NO 
+Message: GStreamer debug system is enabled
+Program python3 found: YES (/usr/bin/python)
+Message: Not building Open Sound System 4 plugin, required headers not found.
+Message: V4L2 plugin is disabled
+Dependency x11 skipped: feature ximagesrc disabled
+Message: Not building adaptivedemux2 plugin because it was disabled
+Dependency cairo-gobject skipped: feature cairo disabled
+Dependency flac skipped: feature flac disabled
+Dependency gdk-pixbuf-2.0 skipped: feature gdk-pixbuf disabled
+Dependency gtk+-3.0 skipped: feature gtk3 disabled
+Run-time dependency libjpeg found: YES 3.0.4
+Dependency caca skipped: feature libcaca disabled
+Dependency libdv skipped: feature dv disabled
+Dependency libpng skipped: feature png disabled
+Dependency libmpg123 skipped: feature mpg123 disabled
+Dependency libraw1394 skipped: feature dv1394 disabled
+Dependency libavc1394 skipped: feature dv1394 disabled
+Dependency libiec61883 skipped: feature dv1394 disabled
+Dependency libpulse skipped: feature pulse disabled
+Dependency shout skipped: feature shout2 disabled
+Dependency speex skipped: feature speex disabled
+Dependency taglib skipped: feature taglib disabled
+Dependency twolame skipped: feature twolame disabled
+Dependency vpx skipped: feature vpx disabled
+Dependency wavpack skipped: feature wavpack disabled
+Program /usr/lib/aarch64-linux-gnu/gstreamer-1.0/gst-plugins-doc-cache-generator found: YES (/usr/lib/aarch64-linux-gnu/gstreamer-1.0/gst-plugins-doc-cache-generator)
+Program hotdoc skipped: feature doc disabled
+Message: Hotdoc not found, not building the documentation
+Program xgettext skipped: feature nls disabled
+Program scripts/extract-release-date-from-doap-file.py found: YES (/run/build/gst-plugins-good/scripts/extract-release-date-from-doap-file.py)
+Message: Package release date: 2023-12-18
+Configuring config.h using configuration
+Build targets in project: 2
+NOTICE: Future-deprecated features used:
+ * 1.1.0: {'"boolean option" keyword argument "value" of type str'}
 
-  Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
-  to tell CMake that the project requires at least <min> but has been updated
-  to work with policies introduced by <max> or earlier.
+gst-plugins-good 1.22.8
 
+    Plugins      : jpeg
 
--- The C compiler identification is GNU 14.2.0
--- The CXX compiler identification is GNU 14.2.0
--- Detecting C compiler ABI info
--- Detecting C compiler ABI info - done
--- Check for working C compiler: /usr/bin/cc - skipped
--- Detecting C compile features
--- Detecting C compile features - done
--- Detecting CXX compiler ABI info
--- Detecting CXX compiler ABI info - done
--- Check for working CXX compiler: /usr/bin/c++ - skipped
--- Detecting CXX compile features
--- Detecting CXX compile features - done
-CMake Deprecation Warning at libmetartc6/CMakeLists.txt:1 (cmake_minimum_required):
-  Compatibility with CMake < 3.10 will be removed from a future version of
-  CMake.
+  User defined options
+    auto_features: disabled
+    libdir       : /app/lib
+    prefix       : /app
+    doc          : disabled
+    examples     : disabled
+    jpeg         : enabled
+    tests        : disabled
 
-  Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
-  to tell CMake that the project requires at least <min> but has been updated
-  to work with policies introduced by <max> or earlier.
-
-
--- Performing Test CMAKE_HAVE_LIBC_PTHREAD
--- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
--- Found Threads: TRUE
--- Found OpenSSL: /home/koen/CrealityPrint/deps/build/destdir/usr/local/lib/libcrypto.a (found version "1.1.1w")
--- Found FFmpeg: /home/koen/CrealityPrint/deps/build/destdir/usr/local/include (found version ".")
--- FFmpeg::avcodec library found: /home/koen/CrealityPrint/deps/build/destdir/usr/local/lib/libavcodec.a
--- FFmpeg::avformat library found: /home/koen/CrealityPrint/deps/build/destdir/usr/local/lib/libavformat.a
--- FFmpeg::avutil library found: /home/koen/CrealityPrint/deps/build/destdir/usr/local/lib/libavutil.a
--- FFmpeg::avdevice library found: /home/koen/CrealityPrint/deps/build/destdir/usr/local/lib/libavdevice.a
--- FFmpeg::avfilter library found: /home/koen/CrealityPrint/deps/build/destdir/usr/local/lib/libavfilter.a
--- FFmpeg::swscale library found: /home/koen/CrealityPrint/deps/build/destdir/usr/local/lib/libswscale.a
--- FFmpeg::swresample library found: /home/koen/CrealityPrint/deps/build/destdir/usr/local/lib/libswresample.a
-CMake Deprecation Warning at libmetartccore6/CMakeLists.txt:1 (cmake_minimum_required):
-  Compatibility with CMake < 3.10 will be removed from a future version of
-  CMake.
-
-  Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
-  to tell CMake that the project requires at least <min> but has been updated
-  to work with policies introduced by <max> or earlier.
-
-
--- FFmpeg::avcodec library found: /home/koen/CrealityPrint/deps/build/destdir/usr/local/lib/libavcodec.a
--- FFmpeg::avformat library found: /home/koen/CrealityPrint/deps/build/destdir/usr/local/lib/libavformat.a
--- FFmpeg::avutil library found: /home/koen/CrealityPrint/deps/build/destdir/usr/local/lib/libavutil.a
--- FFmpeg::avdevice library found: /home/koen/CrealityPrint/deps/build/destdir/usr/local/lib/libavdevice.a
--- FFmpeg::avfilter library found: /home/koen/CrealityPrint/deps/build/destdir/usr/local/lib/libavfilter.a
--- FFmpeg::swscale library found: /home/koen/CrealityPrint/deps/build/destdir/usr/local/lib/libswscale.a
--- FFmpeg::swresample library found: /home/koen/CrealityPrint/deps/build/destdir/usr/local/lib/libswresample.a
-CMake Warning (dev) at CMakeLists.txt:19 (INSTALL):
-  Policy CMP0177 is not set: install() DESTINATION paths are normalized.  Run
-  "cmake --help-policy CMP0177" for policy details.  Use the cmake_policy
-  command to set the policy and suppress this warning.
-This warning is for project developers.  Use -Wno-dev to suppress it.
-
-CMake Warning (dev) at CMakeLists.txt:20 (INSTALL):
-  Policy CMP0177 is not set: install() DESTINATION paths are normalized.  Run
-  "cmake --help-policy CMP0177" for policy details.  Use the cmake_policy
-  command to set the policy and suppress this warning.
-This warning is for project developers.  Use -Wno-dev to suppress it.
-
--- Configuring done (1.6s)
--- Generating done (0.1s)
-CMake Warning:
-  Manually-specified variables were not used by the project:
-
-    CMAKE_DEBUG_POSTFIX
-
-
--- Build files have been written to: /home/koen/CrealityPrint/deps/build/dep_metartc-prefix/src/dep_metartc-build
-[3/35] Performing build step for 'dep_metartc'
-FAILED: dep_metartc-prefix/src/dep_metartc-stamp/dep_metartc-build /home/koen/CrealityPrint/deps/build/dep_metartc-prefix/src/dep_metartc-stamp/dep_metartc-build 
-cd /home/koen/CrealityPrint/deps/build/dep_metartc-prefix/src/dep_metartc-build && /usr/bin/cmake --build . --config Release -- -j8 && /usr/bin/cmake -E touch /home/koen/CrealityPrint/deps/build/dep_metartc-prefix/src/dep_metartc-stamp/dep_metartc-build
-[1/155] Building CXX object libmetartc6/CMakeFiles/metartc6.dir/src/yangdecoder/YangAudioDecoder.cpp.o
-[2/155] Building CXX object libmetartc6/CMakeFiles/metartc6.dir/src/yangaudiodev/YangAudioCaptureData.cpp.o
-[3/155] Building CXX object libmetartc6/CMakeFiles/metartc6.dir/src/yangaudiodev/YangAudioCaptureHandle.cpp.o
-[4/155] Building CXX object libmetartc6/CMakeFiles/metartc6.dir/src/yangdecoder/YangDecoderH264.cpp.o
-[5/155] Building CXX object libmetartc6/CMakeFiles/metartc6.dir/src/yangdecoder/YangDecoderLibde265.cpp.o
-[6/155] Building CXX object libmetartc6/CMakeFiles/metartc6.dir/src/yangaudiodev/YangAudioRenderData.cpp.o
-[7/155] Building CXX object libmetartc6/CMakeFiles/metartc6.dir/src/yangdecoder/YangDecoderOpenh264.cpp.o
-[8/155] Building CXX object libmetartc6/CMakeFiles/metartc6.dir/src/yangaudiodev/YangAudioCapture.cpp.o
-[9/155] Building CXX object libmetartc6/CMakeFiles/metartc6.dir/src/yangdecoder/YangH264DecoderSoft2.cpp.o
-[10/155] Building CXX object libmetartc6/CMakeFiles/metartc6.dir/src/yangdecoder/YangDecoderMediacodec.cpp.o
-[11/155] Building CXX object libmetartc6/CMakeFiles/metartc6.dir/src/yangaudiodev/YangAudioPlay.cpp.o
-[12/155] Building CXX object libmetartc6/CMakeFiles/metartc6.dir/src/yangdecoder/YangH264DecoderSoft.cpp.o
-[13/155] Building CXX object libmetartc6/CMakeFiles/metartc6.dir/src/yangdecoder/YangAudioDecoderHandle.cpp.o
-[14/155] Building CXX object libmetartc6/CMakeFiles/metartc6.dir/src/yangdecoder/YangAudioDecoderOpus.cpp.o
-[15/155] Building CXX object libmetartc6/CMakeFiles/metartc6.dir/src/yangutil/YangLoadLib.cpp.o
-[16/155] Building CXX object libmetartc6/CMakeFiles/metartc6.dir/src/yangdecoder/YangVideoDecoderHandle.cpp.o
-[17/155] Building CXX object libmetartc6/CMakeFiles/metartc6.dir/src/yangutil/YangThread.cpp.o
-[18/155] Building CXX object libmetartc6/CMakeFiles/metartc6.dir/src/yangutil/buffer/YangAudioBuffer.cpp.o
-[19/155] Building CXX object libmetartc6/CMakeFiles/metartc6.dir/src/yangutil/buffer/YangAudioEncoderBuffer.cpp.o
-[20/155] Building CXX object libmetartc6/CMakeFiles/metartc6.dir/src/yangutil/YangTimer.cpp.o
-[21/155] Building CXX object libmetartc6/CMakeFiles/metartc6.dir/src/yangutil/buffer/YangAudioPlayBuffer.cpp.o
-[22/155] Building CXX object libmetartc6/CMakeFiles/metartc6.dir/src/yangdecoder/YangVideoDecoderHandles.cpp.o
-[23/155] Building CXX object libmetartc6/CMakeFiles/metartc6.dir/src/yangutil/buffer/YangVideoDecoderBuffer.cpp.o
-[24/155] Building CXX object libmetartc6/CMakeFiles/metartc6.dir/src/yangutil/buffer/YangVideoBuffer.cpp.o
-[25/155] Building CXX object libmetartc6/CMakeFiles/metartc6.dir/src/yangutil/buffer/YangVideoEncoderBuffer.cpp.o
-[26/155] Building CXX object libmetartc6/CMakeFiles/metartc6.dir/src/yangutil/YangAvinfo.cpp.o
-[27/155] Building CXX object libmetartc6/CMakeFiles/metartc6.dir/src/yangdecoder/YangDecoderFactory.cpp.o
-In file included from /home/koen/CrealityPrint/deps/build/dep_metartc-prefix/src/dep_metartc/libmetartc6/src/yangdecoder/pc/YangAudioDecoderAac.h:11,
-                 from /home/koen/CrealityPrint/deps/build/dep_metartc-prefix/src/dep_metartc/libmetartc6/src/yangdecoder/YangDecoderFactory.cpp:13:
-/home/koen/CrealityPrint/deps/build/dep_metartc-prefix/src/dep_metartc/include/faad.h:32:75: note: ‘#pragma message: please update faad2 include filename and function names!’
-   32 | #pragma message("please update faad2 include filename and function names!")
-      |                                                                           ^
-[28/155] Building CXX object libmetartc6/CMakeFiles/metartc6.dir/src/yangavutil/YangMakeWave.cpp.o
-[29/155] Building CXX object libmetartc6/CMakeFiles/metartc6.dir/src/yangutil/buffer/YangMediaBuffer.cpp.o
-[30/155] Building CXX object libmetartc6/CMakeFiles/metartc6.dir/src/yangavutil/YangVideoEncoderMeta.cpp.o
-[31/155] Building CXX object libmetartc6/CMakeFiles/metartc6.dir/src/yangstream/YangSynBufferManager.cpp.o
-[32/155] Building CXX object libmetartc6/CMakeFiles/metartc6.dir/src/yangutil/YangSysMessageHandle.cpp.o
-[33/155] Building CXX object libmetartc6/CMakeFiles/metartc6.dir/src/yangavutil/YangYuvConvert.cpp.o
-[34/155] Building CXX object libmetartc6/CMakeFiles/metartc6.dir/src/yangrtc/YangPeerConnection2.cpp.o
-[35/155] Building CXX object libmetartc6/CMakeFiles/metartc6.dir/src/yangdecoder/YangAudioDecoderHandles.cpp.o
-[36/155] Building CXX object libmetartc6/CMakeFiles/metartc6.dir/src/yangdecoder/pc/YangAudioDecoderAac.cpp.o
-In file included from /home/koen/CrealityPrint/deps/build/dep_metartc-prefix/src/dep_metartc/libmetartc6/src/yangdecoder/pc/YangAudioDecoderAac.h:11,
-                 from /home/koen/CrealityPrint/deps/build/dep_metartc-prefix/src/dep_metartc/libmetartc6/src/yangdecoder/pc/YangAudioDecoderAac.cpp:4:
-/home/koen/CrealityPrint/deps/build/dep_metartc-prefix/src/dep_metartc/include/faad.h:32:75: note: ‘#pragma message: please update faad2 include filename and function names!’
-   32 | #pragma message("please update faad2 include filename and function names!")
-      |                                                                           ^
-[37/155] Building CXX object libmetartc6/CMakeFiles/metartc6.dir/src/yangdecoder/pc/YangHeaderParseFfmpeg.cpp.o
-[38/155] Building CXX object libmetartc6/CMakeFiles/metartc6.dir/src/yangstream/YangStreamManager.cpp.o
-[39/155] Building C object libmetartccore6/CMakeFiles/metartccore6.dir/src/yangutil/sys/YangAvtype.c.o
-[40/155] Building CXX object libmetartc6/CMakeFiles/metartc6.dir/src/yangstream/YangSynBuffer.cpp.o
-[41/155] Building CXX object libmetartc6/CMakeFiles/metartc6.dir/src/yangdecoder/pc/YangAudioDecoderSpeex.cpp.o
-[42/155] Building CXX object libmetartc6/CMakeFiles/metartc6.dir/src/yangutil/YangString.cpp.o
-[43/155] Building C object libmetartccore6/CMakeFiles/metartccore6.dir/src/yangutil/sys/YangBuffer.c.o
-[44/155] Building CXX object libmetartc6/CMakeFiles/metartc6.dir/src/yangdecoder/pc/YangVideoDecoderFfmpeg.cpp.o
-[45/155] Building C object libmetartccore6/CMakeFiles/metartccore6.dir/src/yangutil/sys/YangEndian.c.o
-[46/155] Building C object libmetartccore6/CMakeFiles/metartccore6.dir/src/yangutil/sys/YangFile.c.o
-[47/155] Building C object libmetartccore6/CMakeFiles/metartccore6.dir/src/yangutil/sys/YangLibHandle.c.o
-[48/155] Building C object libmetartccore6/CMakeFiles/metartccore6.dir/src/yangutil/sys/YangCTimer.c.o
-[49/155] Building C object libmetartccore6/CMakeFiles/metartccore6.dir/src/yangutil/sys/YangCLog.c.o
-[50/155] Building C object libmetartccore6/CMakeFiles/metartccore6.dir/src/yangutil/sys/YangMath.c.o
-[51/155] Building C object libmetartccore6/CMakeFiles/metartccore6.dir/src/yangutil/sys/YangHttp.c.o
-[52/155] Building C object libmetartccore6/CMakeFiles/metartccore6.dir/src/yangutil/sys/YangIni.c.o
-[53/155] Building C object libmetartccore6/CMakeFiles/metartccore6.dir/src/yangutil/sys/YangCString.c.o
-[54/155] Building C object libmetartccore6/CMakeFiles/metartccore6.dir/src/yangutil/sys/YangSocketIP.c.o
-[55/155] Building C object libmetartccore6/CMakeFiles/metartccore6.dir/src/yangutil/sys/YangThread.c.o
-[56/155] Building C object libmetartccore6/CMakeFiles/metartccore6.dir/src/yangutil/sys/YangSsrc.c.o
-[57/155] Building C object libmetartccore6/CMakeFiles/metartccore6.dir/src/yangutil/sys/YangSRtp.c.o
-[58/155] Building C object libmetartccore6/CMakeFiles/metartccore6.dir/src/yangutil/sys/YangWebsocket.c.o
-[59/155] Building C object libmetartccore6/CMakeFiles/metartccore6.dir/src/yangutil/sys/YangTime.c.o
-[60/155] Building C object libmetartccore6/CMakeFiles/metartccore6.dir/src/yangutil/sys/YangSctp.c.o
-[61/155] Building C object libmetartccore6/CMakeFiles/metartccore6.dir/src/yangutil/sys/YangSocket.c.o
-[62/155] Building CXX object libmetartc6/CMakeFiles/metartc6.dir/src/yangaudiodev/linux/YangAudioPlayLinux.cpp.o
-[63/155] Building C object libmetartccore6/CMakeFiles/metartccore6.dir/src/yangutil/sys/YangVector.c.o
-[64/155] Building C object libmetartccore6/CMakeFiles/metartccore6.dir/src/yangutil/buffer2/YangMediaBuffer2.c.o
-[65/155] Building C object libmetartccore6/CMakeFiles/metartccore6.dir/src/yangutil/buffer2/YangSortBuffer.c.o
-[66/155] Building C object libmetartccore6/CMakeFiles/metartccore6.dir/src/yangutil/buffer2/YangVideoEncoderBuffer2.c.o
-[67/155] Building C object libmetartccore6/CMakeFiles/metartccore6.dir/src/yangutil/sys/YangUrl.c.o
-[68/155] Building C object libmetartccore6/CMakeFiles/metartccore6.dir/src/yangavutil/YangNalu.c.o
-[69/155] Building C object libmetartccore6/CMakeFiles/metartccore6.dir/src/yangavutil/YangAudioMix.c.o
-[70/155] Building C object libmetartccore6/CMakeFiles/metartccore6.dir/src/yangavutil/YangPreProcess.c.o
-[71/155] Building C object libmetartccore6/CMakeFiles/metartccore6.dir/src/yangavutil/YangResample.c.o
-[72/155] Building C object libmetartccore6/CMakeFiles/metartccore6.dir/src/yangavutil/YangAudioUtil.c.o
-[73/155] Building C object libmetartccore6/CMakeFiles/metartccore6.dir/src/yangavutil/YangRtcAec.c.o
-[74/155] Building C object libmetartccore6/CMakeFiles/metartccore6.dir/src/yangavutil/YangSpspps.c.o
-[75/155] Building C object libmetartccore6/CMakeFiles/metartccore6.dir/src/yangavutil/YangMeta.c.o
-[76/155] Building CXX object libmetartc6/CMakeFiles/metartc6.dir/src/yangaudiodev/linux/YangAudioAecLinux.cpp.o
-[77/155] Building C object libmetartccore6/CMakeFiles/metartccore6.dir/src/yangjson/YangJson.c.o
-[78/155] Building C object libmetartccore6/CMakeFiles/metartccore6.dir/src/yangice/YangIce.c.o
-[79/155] Building C object libmetartccore6/CMakeFiles/metartccore6.dir/src/yangavutil/YangConvert.c.o
-[80/155] Building C object libmetartccore6/CMakeFiles/metartccore6.dir/src/yangsdp/YangAudioPayload.c.o
-[81/155] Building C object libmetartccore6/CMakeFiles/metartccore6.dir/src/yangsdp/YangCodecPayload.c.o
-[82/155] Building C object libmetartccore6/CMakeFiles/metartccore6.dir/src/yangavutil/YangYuvUtil.c.o
-[83/155] Building C object libmetartccore6/CMakeFiles/metartccore6.dir/src/yangice/YangRtcSocket.c.o
-[84/155] Building C object libmetartccore6/CMakeFiles/metartccore6.dir/src/yangsdp/YangAnswerSdp.c.o
-[85/155] Building C object libmetartccore6/CMakeFiles/metartccore6.dir/src/yangsdp/YangRedPayload.c.o
-[86/155] Building C object libmetartccore6/CMakeFiles/metartccore6.dir/src/yangsdp/YangMediaPayloadType.c.o
-[87/155] Building C object libmetartccore6/CMakeFiles/metartccore6.dir/src/yangsrs/YangSrsConnection.c.o
-[88/155] Building C object libmetartccore6/CMakeFiles/metartccore6.dir/src/yangsdp/YangRtxPayloadDes.c.o
-[89/155] Building C object libmetartccore6/CMakeFiles/metartccore6.dir/src/yangsdp/YangMediaDesc.c.o
-[90/155] Building C object libmetartccore6/CMakeFiles/metartccore6.dir/src/yangstream/YangStream.c.o
-[91/155] Building C object libmetartccore6/CMakeFiles/metartccore6.dir/src/yangsdp/YangSSRCInfo.c.o
-[92/155] Building C object libmetartccore6/CMakeFiles/metartccore6.dir/src/yangstream/YangStreamCapture.c.o
-[93/155] Building C object libmetartccore6/CMakeFiles/metartccore6.dir/src/yangsdp/YangSdpHandle.c.o
-[94/155] Building C object libmetartccore6/CMakeFiles/metartccore6.dir/src/yangsdp/YangSdp.c.o
-[95/155] Building C object libmetartccore6/CMakeFiles/metartccore6.dir/src/yangstream/YangStreamRtc.c.o
-[96/155] Building C object libmetartccore6/CMakeFiles/metartccore6.dir/src/yangrtp/YangPublishNackBuffer.c.o
-[97/155] Building C object libmetartccore6/CMakeFiles/metartccore6.dir/src/yangice/YangRtcStun.c.o
-[98/155] Building C object libmetartccore6/CMakeFiles/metartccore6.dir/src/yangrtp/YangRtcpBye.c.o
-[99/155] Building C object libmetartccore6/CMakeFiles/metartccore6.dir/src/yangrtp/YangRtcpApp.c.o
-[100/155] Building C object libmetartccore6/CMakeFiles/metartccore6.dir/src/yangrtp/YangRtcp.c.o
-[101/155] Building C object libmetartccore6/CMakeFiles/metartccore6.dir/src/yangrtp/YangReceiveNackBuffer.c.o
-[102/155] Building C object libmetartccore6/CMakeFiles/metartccore6.dir/src/yangrtp/YangRtcpCompound.c.o
-[103/155] Building C object libmetartccore6/CMakeFiles/metartccore6.dir/src/yangrtp/YangRtcpPli.c.o
-[104/155] Building C object libmetartccore6/CMakeFiles/metartccore6.dir/src/yangrtp/YangRtcpNack.c.o
-[105/155] Building C object libmetartccore6/CMakeFiles/metartccore6.dir/src/yangice/YangTurnConnection.c.o
-[106/155] Building C object libmetartccore6/CMakeFiles/metartccore6.dir/src/yangrtp/YangRtcpCommon.c.o
-[107/155] Building C object libmetartccore6/CMakeFiles/metartccore6.dir/src/yangsdp/YangRtcSdp.c.o
-[108/155] Building C object libmetartccore6/CMakeFiles/metartccore6.dir/src/yangrtp/YangRtcpRpsi.c.o
-[109/155] Building C object libmetartccore6/CMakeFiles/metartccore6.dir/src/yangrtp/YangRtcpRR.c.o
-[110/155] Building C object libmetartccore6/CMakeFiles/metartccore6.dir/src/yangrtp/YangRtcpPsfbCommon.c.o
-[111/155] Building C object libmetartccore6/CMakeFiles/metartccore6.dir/src/yangrtp/YangRtpBuffer.c.o
-[112/155] Building C object libmetartccore6/CMakeFiles/metartccore6.dir/src/yangrtp/YangRtcpSli.c.o
-[113/155] Building C object libmetartccore6/CMakeFiles/metartccore6.dir/src/yangrtp/YangRtpFUAPayload.c.o
-[114/155] Building C object libmetartccore6/CMakeFiles/metartccore6.dir/src/yangrtp/YangRtcpSR.c.o
-[115/155] Building C object libmetartccore6/CMakeFiles/metartccore6.dir/src/yangrtp/YangRtcpXr.c.o
-[116/155] Building C object libmetartccore6/CMakeFiles/metartccore6.dir/src/yangrtp/YangRtpFUAPayload2.c.o
-[117/155] Building C object libmetartccore6/CMakeFiles/metartccore6.dir/src/yangrtp/YangRtpHeader.c.o
-[118/155] Building C object libmetartccore6/CMakeFiles/metartccore6.dir/src/yangjson/YangJsonImpl.c.o
-[119/155] Building C object libmetartccore6/CMakeFiles/metartccore6.dir/src/yangrtp/YangRtp.c.o
-[120/155] Building C object libmetartccore6/CMakeFiles/metartccore6.dir/src/yangrtp/YangRtpRawPayload.c.o
-[121/155] Building C object libmetartccore6/CMakeFiles/metartccore6.dir/src/yangrtc/YangAec.c.o
-[122/155] Building C object libmetartccore6/CMakeFiles/metartccore6.dir/src/yangrtp/YangRtpPacket.c.o
-[123/155] Building C object libmetartccore6/CMakeFiles/metartccore6.dir/src/yangrtp/YangRtpSTAPPayload.c.o
-[124/155] Building C object libmetartccore6/CMakeFiles/metartccore6.dir/src/yangrtc/YangBandwidth.c.o
-[125/155] Building C object libmetartccore6/CMakeFiles/metartccore6.dir/src/yangrtp/YangRtpRecvNack.c.o
-[126/155] Building C object libmetartccore6/CMakeFiles/metartccore6.dir/src/yangrtc/YangPlayStream.c.o
-[127/155] Building C object libmetartccore6/CMakeFiles/metartccore6.dir/src/yangrtc/YangDatachannel.c.o
-[128/155] Building C object libmetartccore6/CMakeFiles/metartccore6.dir/src/yangrtp/YangRtcpTWCC.c.o
-[129/155] Building C object libmetartccore6/CMakeFiles/metartccore6.dir/src/yangrtc/YangPlayTrackAudio.c.o
-[130/155] Building C object libmetartccore6/CMakeFiles/metartccore6.dir/src/yangrtc/YangPlayTrackH264.c.o
-[131/155] Building C object libmetartccore6/CMakeFiles/metartccore6.dir/src/yangrtc/YangPlayTrackVideo.c.o
-[132/155] Building C object libmetartccore6/CMakeFiles/metartccore6.dir/src/yangrtc/YangPeerConnection.c.o
-[133/155] Building C object libmetartccore6/CMakeFiles/metartccore6.dir/src/yangrtc/YangPlayTrack.c.o
-[134/155] Building C object libmetartccore6/CMakeFiles/metartccore6.dir/src/yangrtc/YangPlayTrackH265.c.o
-[135/155] Building C object libmetartccore6/CMakeFiles/metartccore6.dir/src/yangrtc/YangPushStream.c.o
-[136/155] Building C object libmetartccore6/CMakeFiles/metartccore6.dir/src/yangrtc/YangPush.c.o
-[137/155] Building C object libmetartccore6/CMakeFiles/metartccore6.dir/src/yangrtc/YangPushH265.c.o
-[138/155] Building C object libmetartccore6/CMakeFiles/metartccore6.dir/src/yangrtc/YangPushAudio.c.o
-[139/155] Building C object libmetartccore6/CMakeFiles/metartccore6.dir/src/yangrtc/YangRtcConnection.c.o
-FAILED: libmetartccore6/CMakeFiles/metartccore6.dir/src/yangrtc/YangRtcConnection.c.o 
-/usr/bin/cc -D__STDC_FORMAT_MACROS -I/home/koen/CrealityPrint/deps/build/dep_metartc-prefix/src/dep_metartc/libmetartccore6/../include -I/home/koen/CrealityPrint/deps/build/dep_metartc-prefix/src/dep_metartc/libmetartccore6/../thirdparty/include -I/home/koen/CrealityPrint/deps/build/dep_metartc-prefix/src/dep_metartc/libmetartccore6/../thirdparty/user_include -I/home/koen/CrealityPrint/deps/build/dep_metartc-prefix/src/dep_metartc/libmetartccore6/../thirdparty/user_include/gmssl -I/home/koen/CrealityPrint/deps/build/dep_metartc-prefix/src/dep_metartc/libmetartccore6/../thirdparty/user_include/mbedtls3 -I/home/koen/CrealityPrint/deps/build/dep_metartc-prefix/src/dep_metartc/libmetartccore6/../libmetartccore6/src -O2 -std=gnu11 -O3 -DNDEBUG -fPIC -MD -MT libmetartccore6/CMakeFiles/metartccore6.dir/src/yangrtc/YangRtcConnection.c.o -MF libmetartccore6/CMakeFiles/metartccore6.dir/src/yangrtc/YangRtcConnection.c.o.d -o libmetartccore6/CMakeFiles/metartccore6.dir/src/yangrtc/YangRtcConnection.c.o -c /home/koen/CrealityPrint/deps/build/dep_metartc-prefix/src/dep_metartc/libmetartccore6/src/yangrtc/YangRtcConnection.c
-/home/koen/CrealityPrint/deps/build/dep_metartc-prefix/src/dep_metartc/libmetartccore6/src/yangrtc/YangRtcConnection.c: In function ‘yang_destroy_rtcConnection’:
-/home/koen/CrealityPrint/deps/build/dep_metartc-prefix/src/dep_metartc/libmetartccore6/src/yangrtc/YangRtcConnection.c:759:13: error: ‘YangRtcSocket’ has no member named ‘isLoop’
-  759 |         sock->isLoop = yangfalse;
-      |             ^~
-/home/koen/CrealityPrint/deps/build/dep_metartc-prefix/src/dep_metartc/libmetartccore6/src/yangrtc/YangRtcConnection.c:760:22: error: ‘YangRtcSocket’ has no member named ‘isStart’; did you mean ‘start’?
-  760 |         while (sock->isStart)   yang_usleep(1000);
-      |                      ^~~~~~~
-      |                      start
-[140/155] Building C object libmetartccore6/CMakeFiles/metartccore6.dir/src/yangrtc/YangRtcTwcc.c.o
-[141/155] Building C object libmetartccore6/CMakeFiles/metartccore6.dir/src/yangrtc/YangRtcStats.c.o
-[142/155] Building C object libmetartccore6/CMakeFiles/metartccore6.dir/src/yangrtc/YangRtcRtcp.c.o
-[143/155] Building C object libmetartccore6/CMakeFiles/metartccore6.dir/src/yangrtc/YangStreamUrl.c.o
-[144/155] Building C object libmetartccore6/CMakeFiles/metartccore6.dir/src/yangrtc/YangPushH264.c.o
-[145/155] Building C object libmetartccore6/CMakeFiles/metartccore6.dir/src/yangrtc/YangRtcContext.c.o
-[146/155] Building C object libmetartccore6/CMakeFiles/metartccore6.dir/src/yangzlm/YangZlmConnection.c.o
-ninja: build stopped: subcommand failed.
-ninja: build stopped: subcommand failed.
+Found ninja-1.13.1 at /usr/bin/ninja
+[1/5] Compiling C object ext/jpeg/libgstjpeg.so.p/gstjpeg.c.o
+[2/5] Compiling C object ext/jpeg/libgstjpeg.so.p/gstjpegplugin.c.o
+[3/5] Compiling C object ext/jpeg/libgstjpeg.so.p/gstjpegenc.c.o

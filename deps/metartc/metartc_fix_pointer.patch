@@ -1,5 +1,5 @@
---- libmetartccore6/src/yangrtc/YangRtcConnection.c	2025-10-04 12:51:11.678448083 +0200
-+++ libmetartccore6/src/yangrtc/YangRtcConnection.c	2025-10-04 12:51:28.150539071 +0200
+--- a/libmetartccore6/src/yangrtc/YangRtcConnection.c	2025-10-04 12:51:11.678448083 +0200
++++ b/libmetartccore6/src/yangrtc/YangRtcConnection.c	2025-10-04 12:51:28.150539071 +0200
 @@ -754,7 +754,7 @@
  	YangRtcSession* session=(YangRtcSession*)conn->session;
  	session->activeState = yangfalse;

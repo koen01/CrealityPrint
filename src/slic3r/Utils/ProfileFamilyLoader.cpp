@@ -246,7 +246,7 @@ static void StringReplace(string& strBase, string strSrc, string strDes)
     }
 }
 
-static struct AreaInfo
+struct AreaInfo
 {
     std::string strModelName;
     std::string strAreaInfo;
@@ -349,7 +349,7 @@ static void GetPrinterArea(json& pm, std::map<string, AreaInfo>& mapInfo)
     mapInfo[strName] = areaInfo;
 }
 
-static struct PrinterInfo
+struct PrinterInfo
 {
     std::string name;
     std::string seriesNameList;

@@ -6,6 +6,8 @@ orcaslicer_add_cmake_project(Assimp
   CMAKE_ARGS
         -DASSIMP_BUILD_TESTS=OFF
         -DASSIMP_WARNINGS_AS_ERRORS=OFF
+        -DASSIMP_WARNINGS_AS_ERRORS=OFF
+        -DBUILD_TESTING=OFF
 #        -DASSIMP_BUILD_ZLIB=OFF
 )
 

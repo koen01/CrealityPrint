@@ -27,6 +27,11 @@ else()
             -Djbig:BOOL=OFF
             -Dzstd:BOOL=OFF
             -Dpixarlog:BOOL=OFF
+	    -Dtiff-tools:BOOL=OFF
+            -Dtiff-contrib:BOOL=OFF
+	    -Dtiff-docs:BOOL=OFF
+	    -Dlerc:BOOL=OFF
+            -Dlibdeflate:BOOL=OFF
     )
 
 endif()

@@ -1,500 +1,500 @@
-[154/281] Building CXX object modules/world/CMakeFiles/opencv_world.dir/__/core/src/matrix_transform.cpp.o
-[155/281] Building CXX object modules/world/CMakeFiles/opencv_world.dir/__/core/src/ocl.cpp.o
-[156/281] Building CXX object modules/world/CMakeFiles/opencv_world.dir/__/core/src/matrix_sparse.cpp.o
-[157/281] Building CXX object modules/world/CMakeFiles/opencv_world.dir/__/core/src/matrix_operations.cpp.o
-[158/281] Building CXX object modules/world/CMakeFiles/opencv_world.dir/__/core/src/opencl/runtime/opencl_clblas.cpp.o
-[159/281] Building CXX object modules/world/CMakeFiles/opencv_world.dir/__/core/src/opengl.cpp.o
-[160/281] Building CXX object modules/world/CMakeFiles/opencv_world.dir/__/core/src/opencl/runtime/opencl_core.cpp.o
-[161/281] Building CXX object modules/world/CMakeFiles/opencv_world.dir/__/core/src/opencl/runtime/opencl_clfft.cpp.o
-[162/281] Building CXX object modules/world/CMakeFiles/opencv_world.dir/__/core/src/matrix_wrap.cpp.o
-[163/281] Building CXX object modules/world/CMakeFiles/opencv_world.dir/__/core/src/ovx.cpp.o
-[164/281] Building CXX object modules/world/CMakeFiles/opencv_world.dir/__/core/src/parallel.cpp.o
-[165/281] Building CXX object modules/world/CMakeFiles/opencv_world.dir/__/core/src/parallel/parallel_openmp.cpp.o
-[166/281] Building CXX object modules/world/CMakeFiles/opencv_world.dir/__/core/src/norm.cpp.o
-[167/281] Building CXX object modules/world/CMakeFiles/opencv_world.dir/__/core/src/out.cpp.o
-[168/281] Building CXX object modules/world/CMakeFiles/opencv_world.dir/__/core/src/pca.cpp.o
-[169/281] Building CXX object modules/world/CMakeFiles/opencv_world.dir/__/core/src/parallel/parallel_tbb.cpp.o
-[170/281] Building CXX object modules/world/CMakeFiles/opencv_world.dir/__/core/src/parallel_impl.cpp.o
-[171/281] Building CXX object modules/world/CMakeFiles/opencv_world.dir/__/core/src/persistence_base64_encoding.cpp.o
-[172/281] Building CXX object modules/world/CMakeFiles/opencv_world.dir/__/core/src/parallel/parallel.cpp.o
-[173/281] Building CXX object modules/world/CMakeFiles/opencv_world.dir/__/core/src/persistence_types.cpp.o
-[174/281] Building CXX object modules/world/CMakeFiles/opencv_world.dir/__/core/src/persistence_json.cpp.o
-[175/281] Building CXX object modules/world/CMakeFiles/opencv_world.dir/__/core/src/persistence.cpp.o
-[176/281] Building CXX object modules/world/CMakeFiles/opencv_world.dir/__/core/src/persistence_yml.cpp.o
-[177/281] Building CXX object modules/world/CMakeFiles/opencv_world.dir/__/core/src/persistence_xml.cpp.o
-[178/281] Building CXX object modules/world/CMakeFiles/opencv_world.dir/__/core/src/stat_c.cpp.o
-[179/281] Building CXX object modules/world/CMakeFiles/opencv_world.dir/__/core/src/stl.cpp.o
-[180/281] Building CXX object modules/world/CMakeFiles/opencv_world.dir/__/core/src/stat.dispatch.cpp.o
-[181/281] Building CXX object modules/world/CMakeFiles/opencv_world.dir/__/core/src/matmul.dispatch.cpp.o
-[182/281] Building CXX object modules/world/CMakeFiles/opencv_world.dir/__/core/src/split.dispatch.cpp.o
-[183/281] Building CXX object modules/world/CMakeFiles/opencv_world.dir/__/core/src/rand.cpp.o
-/home/koen/CrealityPrint/deps/build/dep_OpenCV-prefix/src/dep_OpenCV/modules/core/src/rand.cpp: In function ‘void cvRandArr(CvRNG*, CvArr*, int, CvScalar, CvScalar)’:
-/home/koen/CrealityPrint/deps/build/dep_OpenCV-prefix/src/dep_OpenCV/modules/core/src/rand.cpp:761:38: warning: casting ‘CvRNG’ {aka ‘long unsigned int’} to ‘cv::RNG&’ does not use ‘cv::RNG::RNG(uint64)’ [-Wcast-user-defined]
-  761 |     cv::RNG& rng = _rng ? (cv::RNG&)*_rng : cv::theRNG();
-      |                                      ^~~~
-/home/koen/CrealityPrint/deps/build/dep_OpenCV-prefix/src/dep_OpenCV/modules/core/src/rand.cpp: In function ‘void cvRandShuffle(CvArr*, CvRNG*, double)’:
-/home/koen/CrealityPrint/deps/build/dep_OpenCV-prefix/src/dep_OpenCV/modules/core/src/rand.cpp:769:38: warning: casting ‘CvRNG’ {aka ‘long unsigned int’} to ‘cv::RNG&’ does not use ‘cv::RNG::RNG(uint64)’ [-Wcast-user-defined]
-  769 |     cv::RNG& rng = _rng ? (cv::RNG&)*_rng : cv::theRNG();
-      |                                      ^~~~
-[184/281] Building CXX object modules/world/CMakeFiles/opencv_world.dir/__/core/src/tables.cpp.o
-[185/281] Building CXX object modules/world/CMakeFiles/opencv_world.dir/__/core/src/system.cpp.o
-[186/281] Building CXX object modules/world/CMakeFiles/opencv_world.dir/__/core/src/umatrix.cpp.o
-[187/281] Building CXX object modules/world/CMakeFiles/opencv_world.dir/__/core/src/sum.dispatch.cpp.o
-[188/281] Building CXX object modules/world/CMakeFiles/opencv_world.dir/__/core/src/types.cpp.o
-[189/281] Building CXX object modules/world/CMakeFiles/opencv_world.dir/__/core/src/utils/datafile.cpp.o
-[190/281] Building CXX object modules/world/CMakeFiles/opencv_world.dir/__/core/src/softfloat.cpp.o
-[191/281] Building CXX object modules/world/CMakeFiles/opencv_world.dir/__/core/src/trace.cpp.o
-[192/281] Building CXX object modules/world/CMakeFiles/opencv_world.dir/__/core/src/utils/samples.cpp.o
-[193/281] Building CXX object modules/world/CMakeFiles/opencv_world.dir/__/core/src/utils/filesystem.cpp.o
-[194/281] Building CXX object modules/world/CMakeFiles/opencv_world.dir/__/core/src/utils/logtagmanager.cpp.o
-[195/281] Building CXX object modules/world/CMakeFiles/opencv_world.dir/opencl_kernels_core.cpp.o
-[196/281] Building CXX object modules/world/CMakeFiles/opencv_world.dir/__/core/src/utils/logtagconfigparser.cpp.o
-[197/281] Building CXX object modules/world/CMakeFiles/opencv_world.dir/__/core/src/va_intel.cpp.o
-[198/281] Building CXX object modules/world/CMakeFiles/opencv_world.dir/__/imgproc/src/approx.cpp.o
-[199/281] Building CXX object modules/world/CMakeFiles/opencv_world.dir/__/imgproc/src/blend.cpp.o
-[200/281] Building CXX object modules/world/CMakeFiles/opencv_world.dir/__/imgproc/src/accum.cpp.o
-[201/281] Building CXX object modules/world/CMakeFiles/opencv_world.dir/__/imgproc/src/bilateral_filter.dispatch.cpp.o
-[202/281] Building CXX object modules/world/CMakeFiles/opencv_world.dir/__/imgproc/src/clahe.cpp.o
-[203/281] Building CXX object modules/world/CMakeFiles/opencv_world.dir/__/imgproc/src/color.cpp.o
-[204/281] Building CXX object modules/world/CMakeFiles/opencv_world.dir/__/imgproc/src/box_filter.dispatch.cpp.o
-[205/281] Building CXX object modules/world/CMakeFiles/opencv_world.dir/__/imgproc/src/color_hsv.dispatch.cpp.o
-[206/281] Building CXX object modules/world/CMakeFiles/opencv_world.dir/__/imgproc/src/accum.dispatch.cpp.o
-[207/281] Building CXX object modules/world/CMakeFiles/opencv_world.dir/__/imgproc/src/canny.cpp.o
-[208/281] Building CXX object modules/world/CMakeFiles/opencv_world.dir/__/imgproc/src/color_rgb.dispatch.cpp.o
-[209/281] Building CXX object modules/world/CMakeFiles/opencv_world.dir/__/imgproc/src/color_lab.cpp.o
-[210/281] Building CXX object modules/world/CMakeFiles/opencv_world.dir/__/imgproc/src/cornersubpix.cpp.o
-[211/281] Building CXX object modules/world/CMakeFiles/opencv_world.dir/__/imgproc/src/convhull.cpp.o
-[212/281] Building CXX object modules/world/CMakeFiles/opencv_world.dir/__/imgproc/src/colormap.cpp.o
-[213/281] Building CXX object modules/world/CMakeFiles/opencv_world.dir/__/imgproc/src/corner.cpp.o
-[214/281] Building CXX object modules/world/CMakeFiles/opencv_world.dir/__/imgproc/src/contours.cpp.o
-[215/281] Building CXX object modules/world/CMakeFiles/opencv_world.dir/__/imgproc/src/color_yuv.dispatch.cpp.o
-[216/281] Building CXX object modules/world/CMakeFiles/opencv_world.dir/__/imgproc/src/distransform.cpp.o
-[217/281] Building CXX object modules/world/CMakeFiles/opencv_world.dir/__/imgproc/src/deriv.cpp.o
-[218/281] Building CXX object modules/world/CMakeFiles/opencv_world.dir/__/imgproc/src/featureselect.cpp.o
-[219/281] Building CXX object modules/world/CMakeFiles/opencv_world.dir/__/imgproc/src/emd.cpp.o
-[220/281] Building CXX object modules/world/CMakeFiles/opencv_world.dir/__/imgproc/src/demosaicing.cpp.o
-[221/281] Building CXX object modules/world/CMakeFiles/opencv_world.dir/__/imgproc/src/gabor.cpp.o
-[222/281] Building CXX object modules/world/CMakeFiles/opencv_world.dir/__/imgproc/src/geometry.cpp.o
-[223/281] Building CXX object modules/world/CMakeFiles/opencv_world.dir/__/imgproc/src/generalized_hough.cpp.o
-[224/281] Building CXX object modules/world/CMakeFiles/opencv_world.dir/__/imgproc/src/hershey_fonts.cpp.o
-[225/281] Building CXX object modules/world/CMakeFiles/opencv_world.dir/__/imgproc/src/drawing.cpp.o
-[226/281] Building CXX object modules/world/CMakeFiles/opencv_world.dir/__/imgproc/src/grabcut.cpp.o
-[227/281] Building CXX object modules/world/CMakeFiles/opencv_world.dir/__/imgproc/src/floodfill.cpp.o
-[228/281] Building CXX object modules/world/CMakeFiles/opencv_world.dir/__/imgproc/src/intersection.cpp.o
-[229/281] Building CXX object modules/world/CMakeFiles/opencv_world.dir/__/imgproc/src/histogram.cpp.o
-[230/281] Building CXX object modules/world/CMakeFiles/opencv_world.dir/__/imgproc/src/main.cpp.o
-[231/281] Building CXX object modules/world/CMakeFiles/opencv_world.dir/__/imgproc/src/intelligent_scissors.cpp.o
-[232/281] Building CXX object modules/world/CMakeFiles/opencv_world.dir/__/imgproc/src/linefit.cpp.o
-[233/281] Building CXX object modules/world/CMakeFiles/opencv_world.dir/__/imgproc/src/lsd.cpp.o
-[234/281] Building CXX object modules/world/CMakeFiles/opencv_world.dir/__/imgproc/src/filter.dispatch.cpp.o
-[235/281] Building CXX object modules/world/CMakeFiles/opencv_world.dir/__/imgproc/src/matchcontours.cpp.o
-[236/281] Building CXX object modules/world/CMakeFiles/opencv_world.dir/__/imgproc/src/moments.cpp.o
-[237/281] Building CXX object modules/world/CMakeFiles/opencv_world.dir/__/imgproc/src/min_enclosing_triangle.cpp.o
-[238/281] Building CXX object modules/world/CMakeFiles/opencv_world.dir/__/imgproc/src/median_blur.dispatch.cpp.o
-[239/281] Building CXX object modules/world/CMakeFiles/opencv_world.dir/__/imgproc/src/hough.cpp.o
-[240/281] Building CXX object modules/world/CMakeFiles/opencv_world.dir/__/imgproc/src/phasecorr.cpp.o
-[241/281] Building CXX object modules/world/CMakeFiles/opencv_world.dir/__/imgproc/src/rotcalipers.cpp.o
-[242/281] Building CXX object modules/world/CMakeFiles/opencv_world.dir/__/imgproc/src/segmentation.cpp.o
-[243/281] Building CXX object modules/world/CMakeFiles/opencv_world.dir/__/imgproc/src/samplers.cpp.o
-[244/281] Building CXX object modules/world/CMakeFiles/opencv_world.dir/__/imgproc/src/shapedescr.cpp.o
-[245/281] Building CXX object modules/world/CMakeFiles/opencv_world.dir/__/imgproc/src/imgwarp.cpp.o
-[246/281] Building CXX object modules/world/CMakeFiles/opencv_world.dir/__/imgproc/src/spatialgradient.cpp.o
-[247/281] Building CXX object modules/world/CMakeFiles/opencv_world.dir/__/imgproc/src/resize.cpp.o
-[248/281] Building CXX object modules/world/CMakeFiles/opencv_world.dir/__/imgproc/src/pyramids.cpp.o
-[249/281] Building CXX object modules/world/CMakeFiles/opencv_world.dir/__/imgproc/src/subdivision2d.cpp.o
-[250/281] Building CXX object modules/world/CMakeFiles/opencv_world.dir/__/imgproc/src/tables.cpp.o
-[251/281] Building CXX object modules/world/CMakeFiles/opencv_world.dir/__/imgproc/src/utils.cpp.o
-[252/281] Building CXX object modules/world/CMakeFiles/opencv_world.dir/opencl_kernels_imgproc.cpp.o
-[253/281] Building CXX object modules/world/CMakeFiles/opencv_world.dir/__/imgproc/src/templmatch.cpp.o
-[254/281] Building CXX object modules/world/CMakeFiles/opencv_world.dir/__/imgproc/src/morph.dispatch.cpp.o
-[255/281] Building CXX object modules/world/CMakeFiles/opencv_world.dir/__/imgcodecs/src/grfmt_base.cpp.o
-[256/281] Building CXX object modules/world/CMakeFiles/opencv_world.dir/__/imgproc/src/sumpixels.dispatch.cpp.o
-[257/281] Building CXX object modules/world/CMakeFiles/opencv_world.dir/__/imgproc/src/thresh.cpp.o
-[258/281] Building CXX object modules/world/CMakeFiles/opencv_world.dir/__/imgproc/src/smooth.dispatch.cpp.o
-[259/281] Building CXX object modules/world/CMakeFiles/opencv_world.dir/__/imgcodecs/src/loadsave.cpp.o
-[260/281] Building CXX object modules/world/CMakeFiles/opencv_world.dir/__/imgcodecs/src/grfmt_exr.cpp.o
-[261/281] Building CXX object modules/world/CMakeFiles/opencv_world.dir/__/imgcodecs/src/grfmt_gdal.cpp.o
-[262/281] Building CXX object modules/world/CMakeFiles/opencv_world.dir/__/imgcodecs/src/utils.cpp.o
-[263/281] Building CXX object modules/world/CMakeFiles/opencv_world.dir/__/imgcodecs/src/grfmt_gdcm.cpp.o
-[264/281] Building CXX object modules/world/CMakeFiles/opencv_world.dir/__/imgcodecs/src/grfmt_jpeg2000.cpp.o
-[265/281] Building CXX object modules/world/CMakeFiles/opencv_world.dir/__/imgcodecs/src/grfmt_bmp.cpp.o
-[266/281] Building CXX object modules/world/CMakeFiles/opencv_world.dir/__/imgcodecs/src/grfmt_hdr.cpp.o
-[267/281] Building CXX object modules/world/CMakeFiles/opencv_world.dir/__/imgcodecs/src/grfmt_jpeg2000_openjpeg.cpp.o
-[268/281] Building CXX object modules/world/CMakeFiles/opencv_world.dir/__/imgcodecs/src/grfmt_jpeg.cpp.o
-[269/281] Building CXX object modules/world/CMakeFiles/opencv_world.dir/__/imgcodecs/src/grfmt_webp.cpp.o
-[270/281] Building CXX object modules/world/CMakeFiles/opencv_world.dir/__/imgcodecs/src/grfmt_pxm.cpp.o
-[271/281] Building CXX object modules/world/CMakeFiles/opencv_world.dir/__/imgcodecs/src/grfmt_png.cpp.o
-[272/281] Building CXX object modules/world/CMakeFiles/opencv_world.dir/__/imgcodecs/src/grfmt_sunras.cpp.o
-[273/281] Building CXX object modules/world/CMakeFiles/opencv_world.dir/__/imgcodecs/src/grfmt_pam.cpp.o
-[274/281] Building CXX object modules/world/CMakeFiles/opencv_world.dir/__/imgcodecs/src/grfmt_pfm.cpp.o
-[275/281] Building CXX object modules/world/CMakeFiles/opencv_world.dir/src/world_init.cpp.o
-[276/281] Building CXX object modules/world/CMakeFiles/opencv_world.dir/__/imgcodecs/src/bitstrm.cpp.o
-[277/281] Building CXX object modules/world/CMakeFiles/opencv_world.dir/__/imgcodecs/src/rgbe.cpp.o
-[278/281] Building CXX object modules/world/CMakeFiles/opencv_world.dir/__/imgcodecs/src/exif.cpp.o
-[279/281] Building CXX object modules/world/CMakeFiles/opencv_world.dir/__/imgcodecs/src/grfmt_tiff.cpp.o
-[280/281] Building CXX object modules/world/CMakeFiles/opencv_world.dir/__/imgproc/src/connectedcomponents.cpp.o
-[281/281] Linking CXX static library lib/libopencv_world.a
-[209/242] Performing build step for 'dep_OSS'
-[1/195] Building CXX object sdk/CMakeFiles/cpp-sdk.dir/src/auth/Credentials.cc.o
-[2/195] Building CXX object sdk/CMakeFiles/cpp-sdk.dir/src/auth/CredentialsProvider.cc.o
-[3/195] Building CXX object sdk/CMakeFiles/cpp-sdk.dir/src/OssResponse.cc.o
-[4/195] Building CXX object sdk/CMakeFiles/cpp-sdk.dir/src/auth/Signer.cc.o
-[5/195] Building CXX object sdk/CMakeFiles/cpp-sdk.dir/src/auth/SimpleCredentialsProvider.cc.o
-[6/195] Building CXX object sdk/CMakeFiles/cpp-sdk.dir/src/auth/HmacSha1Signer.cc.o
-[7/195] Building CXX object sdk/CMakeFiles/cpp-sdk.dir/src/client/AsyncCallerContext.cc.o
-[8/195] Building CXX object sdk/CMakeFiles/cpp-sdk.dir/src/OssResult.cc.o
-[9/195] Building CXX object sdk/CMakeFiles/cpp-sdk.dir/src/ServiceRequest.cc.o
-[10/195] Building CXX object sdk/CMakeFiles/cpp-sdk.dir/src/OssRequest.cc.o
-[11/195] Building CXX object sdk/CMakeFiles/cpp-sdk.dir/src/client/ClientConfiguration.cc.o
-[12/195] Building CXX object sdk/CMakeFiles/cpp-sdk.dir/src/encryption/CryptoConfiguration.cc.o
-[13/195] Building CXX object sdk/CMakeFiles/cpp-sdk.dir/src/encryption/ContentCryptoMaterial.cc.o
-[14/195] Building CXX object sdk/CMakeFiles/cpp-sdk.dir/src/encryption/Cipher.cc.o
-[15/195] Building CXX object sdk/CMakeFiles/cpp-sdk.dir/src/encryption/CipherOpenssl.cc.o
-[16/195] Building CXX object sdk/CMakeFiles/cpp-sdk.dir/src/encryption/EncryptionMaterials.cc.o
-[17/195] Building CXX object sdk/CMakeFiles/cpp-sdk.dir/src/encryption/CryptoStreamBuf.cc.o
-[18/195] Building CXX object sdk/CMakeFiles/cpp-sdk.dir/src/client/Client.cc.o
-[19/195] Building CXX object sdk/CMakeFiles/cpp-sdk.dir/src/http/HttpClient.cc.o
-[20/195] Building CXX object sdk/CMakeFiles/cpp-sdk.dir/src/http/HttpMessage.cc.o
-[21/195] Building CXX object sdk/CMakeFiles/cpp-sdk.dir/src/OssClient.cc.o
-[22/195] Building CXX object sdk/CMakeFiles/cpp-sdk.dir/src/http/HttpRequest.cc.o
-[23/195] Building CXX object sdk/CMakeFiles/cpp-sdk.dir/src/http/CurlHttpClient.cc.o
-[24/195] Building CXX object sdk/CMakeFiles/cpp-sdk.dir/src/external/tinyxml2/tinyxml2.cpp.o
-[25/195] Building CXX object sdk/CMakeFiles/cpp-sdk.dir/src/http/HttpResponse.cc.o
-[26/195] Building CXX object sdk/CMakeFiles/cpp-sdk.dir/src/model/AbortMultipartUploadRequest.cc.o
-[27/195] Building CXX object sdk/CMakeFiles/cpp-sdk.dir/src/model/AppendObjectResult.cc.o
-[28/195] Building CXX object sdk/CMakeFiles/cpp-sdk.dir/src/model/AbortBucketWormRequest.cc.o
-[29/195] Building CXX object sdk/CMakeFiles/cpp-sdk.dir/src/model/AppendObjectRequest.cc.o
-[30/195] Building CXX object sdk/CMakeFiles/cpp-sdk.dir/src/model/Bucket.cc.o
-[31/195] Building CXX object sdk/CMakeFiles/cpp-sdk.dir/src/http/Url.cc.o
-[32/195] Building CXX object sdk/CMakeFiles/cpp-sdk.dir/src/model/CompleteMultipartUploadRequest.cc.o
-[33/195] Building CXX object sdk/CMakeFiles/cpp-sdk.dir/src/encryption/CryptoModule.cc.o
-[34/195] Building CXX object sdk/CMakeFiles/cpp-sdk.dir/src/model/CompleteBucketWormRequest.cc.o
-[35/195] Building CXX object sdk/CMakeFiles/cpp-sdk.dir/src/model/CopyObjectRequest.cc.o
-[36/195] Building CXX object sdk/CMakeFiles/cpp-sdk.dir/src/OssClientImpl.cc.o
-[37/195] Building CXX object sdk/CMakeFiles/cpp-sdk.dir/src/model/CreateSelectObjectMetaRequest.cc.o
-[38/195] Building CXX object sdk/CMakeFiles/cpp-sdk.dir/src/model/CompleteMultipartUploadResult.cc.o
-[39/195] Building CXX object sdk/CMakeFiles/cpp-sdk.dir/src/model/CreateSymlinkResult.cc.o
-[40/195] Building CXX object sdk/CMakeFiles/cpp-sdk.dir/src/model/CreateBucketRequest.cc.o
-[41/195] Building CXX object sdk/CMakeFiles/cpp-sdk.dir/src/model/CreateSelectObjectMetaResult.cc.o
-[42/195] Building CXX object sdk/CMakeFiles/cpp-sdk.dir/src/encryption/OssEncryptionClient.cc.o
-[43/195] Building CXX object sdk/CMakeFiles/cpp-sdk.dir/src/model/CopyObjectResult.cc.o
-[44/195] Building CXX object sdk/CMakeFiles/cpp-sdk.dir/src/model/DeleteBucketCorsRequest.cc.o
-[45/195] Building CXX object sdk/CMakeFiles/cpp-sdk.dir/src/model/DeleteBucketPolicyRequest.cc.o
-[46/195] Building CXX object sdk/CMakeFiles/cpp-sdk.dir/src/model/DeleteBucketQosInfoRequest.cc.o
-[47/195] Building CXX object sdk/CMakeFiles/cpp-sdk.dir/src/model/CreateSymlinkRequest.cc.o
-[48/195] Building CXX object sdk/CMakeFiles/cpp-sdk.dir/src/model/DeleteBucketLoggingRequest.cc.o
-[49/195] Building CXX object sdk/CMakeFiles/cpp-sdk.dir/src/model/DeleteBucketEncryptionRequest.cc.o
-[50/195] Building CXX object sdk/CMakeFiles/cpp-sdk.dir/src/model/DeleteBucketLifecycleRequest.cc.o
-[51/195] Building CXX object sdk/CMakeFiles/cpp-sdk.dir/src/model/DeleteBucketInventoryConfigurationRequest.cc.o
-[52/195] Building CXX object sdk/CMakeFiles/cpp-sdk.dir/src/model/DeleteBucketWebsiteRequest.cc.o
-[53/195] Building CXX object sdk/CMakeFiles/cpp-sdk.dir/src/model/DeleteLiveChannelRequest.cc.o
-[54/195] Building CXX object sdk/CMakeFiles/cpp-sdk.dir/src/model/DeleteBucketTaggingRequest.cc.o
-[55/195] Building CXX object sdk/CMakeFiles/cpp-sdk.dir/src/model/DeleteObjectsResult.cc.o
-[56/195] Building CXX object sdk/CMakeFiles/cpp-sdk.dir/src/model/DeleteObjectResult.cc.o
-[57/195] Building CXX object sdk/CMakeFiles/cpp-sdk.dir/src/model/ExtendBucketWormRequest.cc.o
-[58/195] Building CXX object sdk/CMakeFiles/cpp-sdk.dir/src/model/DeleteObjectTaggingRequest.cc.o
-[59/195] Building CXX object sdk/CMakeFiles/cpp-sdk.dir/src/model/DeleteObjectVersionsResult.cc.o
-[60/195] Building CXX object sdk/CMakeFiles/cpp-sdk.dir/src/model/GetBucketCorsRequest.cc.o
-[61/195] Building CXX object sdk/CMakeFiles/cpp-sdk.dir/src/model/GeneratePresignedUrlRequest.cc.o
-[62/195] Building CXX object sdk/CMakeFiles/cpp-sdk.dir/src/model/GetBucketAclRequest.cc.o
-[63/195] Building CXX object sdk/CMakeFiles/cpp-sdk.dir/src/model/GetBucketEncryptionResult.cc.o
-[64/195] Building CXX object sdk/CMakeFiles/cpp-sdk.dir/src/model/DeleteObjectVersionsRequest.cc.o
-[65/195] Building CXX object sdk/CMakeFiles/cpp-sdk.dir/src/model/GenerateRTMPSignedUrlRequest.cc.o
-[66/195] Building CXX object sdk/CMakeFiles/cpp-sdk.dir/src/model/DeleteObjectsRequest.cc.o
-[67/195] Building CXX object sdk/CMakeFiles/cpp-sdk.dir/src/model/GetBucketAclResult.cc.o
-[68/195] Building CXX object sdk/CMakeFiles/cpp-sdk.dir/src/model/GetBucketCorsResult.cc.o
-[69/195] Building CXX object sdk/CMakeFiles/cpp-sdk.dir/src/external/json/jsoncpp.cpp.o
-[70/195] Building CXX object sdk/CMakeFiles/cpp-sdk.dir/src/model/GetBucketInventoryConfigurationRequest.cc.o
-[71/195] Building CXX object sdk/CMakeFiles/cpp-sdk.dir/src/model/GetBucketInfoResult.cc.o
-[72/195] Building CXX object sdk/CMakeFiles/cpp-sdk.dir/src/model/GetBucketEncryptionRequest.cc.o
-[73/195] Building CXX object sdk/CMakeFiles/cpp-sdk.dir/src/model/GetBucketLocationResult.cc.o
-[74/195] Building CXX object sdk/CMakeFiles/cpp-sdk.dir/src/model/GetBucketLoggingResult.cc.o
-[75/195] Building CXX object sdk/CMakeFiles/cpp-sdk.dir/src/model/GetBucketInfoRequest.cc.o
-[76/195] Building CXX object sdk/CMakeFiles/cpp-sdk.dir/src/model/GetBucketLifecycleRequest.cc.o
-[77/195] Building CXX object sdk/CMakeFiles/cpp-sdk.dir/src/model/GetBucketLocationRequest.cc.o
-[78/195] Building CXX object sdk/CMakeFiles/cpp-sdk.dir/src/model/GetBucketPaymentRequest.cc.o
-[79/195] Building CXX object sdk/CMakeFiles/cpp-sdk.dir/src/model/GetBucketPaymentResult.cc.o
-[80/195] Building CXX object sdk/CMakeFiles/cpp-sdk.dir/src/model/GetBucketLoggingRequest.cc.o
-[81/195] Building CXX object sdk/CMakeFiles/cpp-sdk.dir/src/model/GetBucketInventoryConfigurationResult.cc.o
-[82/195] Building CXX object sdk/CMakeFiles/cpp-sdk.dir/src/model/GetBucketQosInfoResult.cc.o
-[83/195] Building CXX object sdk/CMakeFiles/cpp-sdk.dir/src/model/GetBucketRefererRequest.cc.o
-[84/195] Building CXX object sdk/CMakeFiles/cpp-sdk.dir/src/model/GetBucketPolicyResult.cc.o
-[85/195] Building CXX object sdk/CMakeFiles/cpp-sdk.dir/src/model/GetBucketPolicyRequest.cc.o
-[86/195] Building CXX object sdk/CMakeFiles/cpp-sdk.dir/src/model/GetBucketStatRequest.cc.o
-[87/195] Building CXX object sdk/CMakeFiles/cpp-sdk.dir/src/model/GetBucketStatResult.cc.o
-[88/195] Building CXX object sdk/CMakeFiles/cpp-sdk.dir/src/model/GetBucketQosInfoRequest.cc.o
-[89/195] Building CXX object sdk/CMakeFiles/cpp-sdk.dir/src/model/GetBucketLifecycleResult.cc.o
-[90/195] Building CXX object sdk/CMakeFiles/cpp-sdk.dir/src/model/GetBucketRefererResult.cc.o
-[91/195] Building CXX object sdk/CMakeFiles/cpp-sdk.dir/src/model/GetBucketTaggingRequest.cc.o
-[92/195] Building CXX object sdk/CMakeFiles/cpp-sdk.dir/src/model/GetBucketTaggingResult.cc.o
-[93/195] Building CXX object sdk/CMakeFiles/cpp-sdk.dir/src/model/GetBucketWormRequest.cc.o
-[94/195] Building CXX object sdk/CMakeFiles/cpp-sdk.dir/src/model/GetBucketStorageCapacityResult.cc.o
-[95/195] Building CXX object sdk/CMakeFiles/cpp-sdk.dir/src/model/GetBucketWormResult.cc.o
-[96/195] Building CXX object sdk/CMakeFiles/cpp-sdk.dir/src/model/GetBucketStorageCapacityRequest.cc.o
-[97/195] Building CXX object sdk/CMakeFiles/cpp-sdk.dir/src/model/GetBucketVersioningRequest.cc.o
-[98/195] Building CXX object sdk/CMakeFiles/cpp-sdk.dir/src/model/GetBucketVersioningResult.cc.o
-[99/195] Building CXX object sdk/CMakeFiles/cpp-sdk.dir/src/model/GetBucketWebsiteResult.cc.o
-[100/195] Building CXX object sdk/CMakeFiles/cpp-sdk.dir/src/model/GetLiveChannelHistoryRequest.cc.o
-[101/195] Building CXX object sdk/CMakeFiles/cpp-sdk.dir/src/model/GetBucketWebsiteRequest.cc.o
-[102/195] Building CXX object sdk/CMakeFiles/cpp-sdk.dir/src/model/GetLiveChannelInfoRequest.cc.o
-[103/195] Building CXX object sdk/CMakeFiles/cpp-sdk.dir/src/model/GetObjectAclResult.cc.o
-[104/195] Building CXX object sdk/CMakeFiles/cpp-sdk.dir/src/model/GetLiveChannelStatResult.cc.o
-[105/195] Building CXX object sdk/CMakeFiles/cpp-sdk.dir/src/model/GetLiveChannelInfoResult.cc.o
-[106/195] Building CXX object sdk/CMakeFiles/cpp-sdk.dir/src/model/GetObjectByUrlRequest.cc.o
-[107/195] Building CXX object sdk/CMakeFiles/cpp-sdk.dir/src/model/GetLiveChannelHistoryResult.cc.o
-[108/195] Building CXX object sdk/CMakeFiles/cpp-sdk.dir/src/model/GetObjectMetaRequest.cc.o
-[109/195] Building CXX object sdk/CMakeFiles/cpp-sdk.dir/src/model/GetLiveChannelStatRequest.cc.o
-[110/195] Building CXX object sdk/CMakeFiles/cpp-sdk.dir/src/model/GetObjectAclRequest.cc.o
-[111/195] Building CXX object sdk/CMakeFiles/cpp-sdk.dir/src/model/GetObjectResult.cc.o
-[112/195] Building CXX object sdk/CMakeFiles/cpp-sdk.dir/src/model/GetSymlinkResult.cc.o
-[113/195] Building CXX object sdk/CMakeFiles/cpp-sdk.dir/src/model/GetObjectTaggingRequest.cc.o
-[114/195] Building CXX object sdk/CMakeFiles/cpp-sdk.dir/src/model/GetSymlinkRequest.cc.o
-[115/195] Building CXX object sdk/CMakeFiles/cpp-sdk.dir/src/model/GetVodPlaylistResult.cc.o
-[116/195] Building CXX object sdk/CMakeFiles/cpp-sdk.dir/src/model/GetVodPlaylistRequest.cc.o
-[117/195] Building CXX object sdk/CMakeFiles/cpp-sdk.dir/src/model/GetUserQosInfoRequest.cc.o
-[118/195] Building CXX object sdk/CMakeFiles/cpp-sdk.dir/src/model/GetObjectTaggingResult.cc.o
-[119/195] Building CXX object sdk/CMakeFiles/cpp-sdk.dir/src/model/GetUserQosInfoResult.cc.o
-[120/195] Building CXX object sdk/CMakeFiles/cpp-sdk.dir/src/model/InitiateBucketWormResult.cc.o
-[121/195] Building CXX object sdk/CMakeFiles/cpp-sdk.dir/src/model/InitiateMultipartUploadResult.cc.o
-[122/195] Building CXX object sdk/CMakeFiles/cpp-sdk.dir/src/model/ListBucketInventoryConfigurationsRequest.cc.o
-[123/195] Building CXX object sdk/CMakeFiles/cpp-sdk.dir/src/model/InventoryConfiguration.cc.o
-[124/195] Building CXX object sdk/CMakeFiles/cpp-sdk.dir/src/model/GetObjectRequest.cc.o
-[125/195] Building CXX object sdk/CMakeFiles/cpp-sdk.dir/src/model/InitiateBucketWormRequest.cc.o
-[126/195] Building CXX object sdk/CMakeFiles/cpp-sdk.dir/src/model/LifecycleRule.cc.o
-[127/195] Building CXX object sdk/CMakeFiles/cpp-sdk.dir/src/model/ListBucketsRequest.cc.o
-[128/195] Building CXX object sdk/CMakeFiles/cpp-sdk.dir/src/model/InputFormat.cc.o
-[129/195] Building CXX object sdk/CMakeFiles/cpp-sdk.dir/src/model/InitiateMultipartUploadRequest.cc.o
-[130/195] Building CXX object sdk/CMakeFiles/cpp-sdk.dir/src/model/ListBucketsResult.cc.o
-[131/195] Building CXX object sdk/CMakeFiles/cpp-sdk.dir/src/model/ListMultipartUploadsRequest.cc.o
-[132/195] Building CXX object sdk/CMakeFiles/cpp-sdk.dir/src/model/ListLiveChannelRequest.cc.o
-[133/195] Building CXX object sdk/CMakeFiles/cpp-sdk.dir/src/model/ListBucketInventoryConfigurationsResult.cc.o
-[134/195] Building CXX object sdk/CMakeFiles/cpp-sdk.dir/src/model/ListObjectsRequest.cc.o
-[135/195] Building CXX object sdk/CMakeFiles/cpp-sdk.dir/src/model/ListLiveChannelResult.cc.o
-[136/195] Building CXX object sdk/CMakeFiles/cpp-sdk.dir/src/model/ListObjectsV2Request.cc.o
-[137/195] Building CXX object sdk/CMakeFiles/cpp-sdk.dir/src/model/ListMultipartUploadsResult.cc.o
-[138/195] Building CXX object sdk/CMakeFiles/cpp-sdk.dir/src/model/ModelError.cc.o
-[139/195] Building CXX object sdk/CMakeFiles/cpp-sdk.dir/src/model/ListPartsRequest.cc.o
-[140/195] Building CXX object sdk/CMakeFiles/cpp-sdk.dir/src/model/ObjectCallbackBuilder.cc.o
-[141/195] Building CXX object sdk/CMakeFiles/cpp-sdk.dir/src/model/PostVodPlaylistRequest.cc.o
-[142/195] Building CXX object sdk/CMakeFiles/cpp-sdk.dir/src/model/ListObjectVersionsResult.cc.o
-[143/195] Building CXX object sdk/CMakeFiles/cpp-sdk.dir/src/model/ListObjectsResult.cc.o
-[144/195] Building CXX object sdk/CMakeFiles/cpp-sdk.dir/src/model/ListPartsResult.cc.o
-[145/195] Building CXX object sdk/CMakeFiles/cpp-sdk.dir/src/model/ProcessObjectRequest.cc.o
-[146/195] Building CXX object sdk/CMakeFiles/cpp-sdk.dir/src/model/ListObjectsV2Result.cc.o
-[147/195] Building CXX object sdk/CMakeFiles/cpp-sdk.dir/src/model/OutputFormat.cc.o
-[148/195] Building CXX object sdk/CMakeFiles/cpp-sdk.dir/src/model/PutObjectResult.cc.o
-[149/195] Building CXX object sdk/CMakeFiles/cpp-sdk.dir/src/model/ObjectMetaData.cc.o
-[150/195] Building CXX object sdk/CMakeFiles/cpp-sdk.dir/src/model/PutLiveChannelStatusRequest.cc.o
-[151/195] Building CXX object sdk/CMakeFiles/cpp-sdk.dir/src/model/PutLiveChannelResult.cc.o
-[152/195] Building CXX object sdk/CMakeFiles/cpp-sdk.dir/src/model/PutLiveChannelRequest.cc.o
-[153/195] Building CXX object sdk/CMakeFiles/cpp-sdk.dir/src/model/RestoreObjectRequest.cc.o
-[154/195] Building CXX object sdk/CMakeFiles/cpp-sdk.dir/src/model/RestoreObjectResult.cc.o
-[155/195] Building CXX object sdk/CMakeFiles/cpp-sdk.dir/src/model/PutObjectByUrlRequest.cc.o
-[156/195] Building CXX object sdk/CMakeFiles/cpp-sdk.dir/src/model/SetBucketEncryptionRequest.cc.o
-[157/195] Building CXX object sdk/CMakeFiles/cpp-sdk.dir/src/model/SetBucketCorsRequest.cc.o
-[158/195] Building CXX object sdk/CMakeFiles/cpp-sdk.dir/src/model/PutObjectRequest.cc.o
-[159/195] Building CXX object sdk/CMakeFiles/cpp-sdk.dir/src/model/SetBucketLoggingRequest.cc.o
-[160/195] Building CXX object sdk/CMakeFiles/cpp-sdk.dir/src/model/SetBucketAclRequest.cc.o
-[161/195] Building CXX object sdk/CMakeFiles/cpp-sdk.dir/src/model/SetBucketPolicyRequest.cc.o
-[162/195] Building CXX object sdk/CMakeFiles/cpp-sdk.dir/src/model/SetBucketRefererRequest.cc.o
-[163/195] Building CXX object sdk/CMakeFiles/cpp-sdk.dir/src/model/SelectObjectRequest.cc.o
-[164/195] Building CXX object sdk/CMakeFiles/cpp-sdk.dir/src/model/SetBucketPaymentRequest.cc.o
-[165/195] Building CXX object sdk/CMakeFiles/cpp-sdk.dir/src/model/SetBucketTaggingRequest.cc.o
-[166/195] Building CXX object sdk/CMakeFiles/cpp-sdk.dir/src/model/SetBucketVersioningRequest.cc.o
-[167/195] Building CXX object sdk/CMakeFiles/cpp-sdk.dir/src/model/SetBucketInventoryConfigurationRequest.cc.o
-[168/195] Building CXX object sdk/CMakeFiles/cpp-sdk.dir/src/model/SetBucketStorageCapacityRequest.cc.o
-[169/195] Building CXX object sdk/CMakeFiles/cpp-sdk.dir/src/model/SetBucketLifecycleRequest.cc.o
-[170/195] Building CXX object sdk/CMakeFiles/cpp-sdk.dir/src/model/SetBucketQosInfoRequest.cc.o
-[171/195] Building CXX object sdk/CMakeFiles/cpp-sdk.dir/src/model/SetObjectAclRequest.cc.o
-[172/195] Building CXX object sdk/CMakeFiles/cpp-sdk.dir/src/model/SetObjectAclResult.cc.o
-[173/195] Building CXX object sdk/CMakeFiles/cpp-sdk.dir/src/model/SetBucketWebsiteRequest.cc.o
-[174/195] Building CXX object sdk/CMakeFiles/cpp-sdk.dir/src/model/UploadPartCopyResult.cc.o
-[175/195] Building CXX object sdk/CMakeFiles/cpp-sdk.dir/src/model/SetObjectTaggingRequest.cc.o
-[176/195] Building CXX object sdk/CMakeFiles/cpp-sdk.dir/src/model/Tagging.cc.o
-[177/195] Building CXX object sdk/CMakeFiles/cpp-sdk.dir/src/resumable/DownloadObjectRequest.cc.o
-[178/195] Building CXX object sdk/CMakeFiles/cpp-sdk.dir/src/model/UploadPartCopyRequest.cc.o
-[179/195] Building CXX object sdk/CMakeFiles/cpp-sdk.dir/src/utils/Crc32.cc.o
-[180/195] Building CXX object sdk/CMakeFiles/cpp-sdk.dir/src/model/UploadPartRequest.cc.o
-[181/195] Building CXX object sdk/CMakeFiles/cpp-sdk.dir/src/resumable/MultiCopyObjectRequest.cc.o
-[182/195] Building CXX object sdk/CMakeFiles/cpp-sdk.dir/src/resumable/ResumableBaseWorker.cc.o
-[183/195] Building CXX object sdk/CMakeFiles/cpp-sdk.dir/src/utils/Crc64.cc.o
-[184/195] Building CXX object sdk/CMakeFiles/cpp-sdk.dir/src/utils/Runnable.cc.o
-[185/195] Building CXX object sdk/CMakeFiles/cpp-sdk.dir/src/utils/Executor.cc.o
-[186/195] Building CXX object sdk/CMakeFiles/cpp-sdk.dir/src/resumable/UploadObjectRequest.cc.o
-[187/195] Building CXX object sdk/CMakeFiles/cpp-sdk.dir/src/utils/SignUtils.cc.o
-[188/195] Building CXX object sdk/CMakeFiles/cpp-sdk.dir/src/utils/FileSystemUtils.cc.o
-[189/195] Building CXX object sdk/CMakeFiles/cpp-sdk.dir/src/utils/ThreadExecutor.cc.o
-[190/195] Building CXX object sdk/CMakeFiles/cpp-sdk.dir/src/utils/LogUtils.cc.o
-[191/195] Building CXX object sdk/CMakeFiles/cpp-sdk.dir/src/resumable/ResumableCopier.cc.o
-[192/195] Building CXX object sdk/CMakeFiles/cpp-sdk.dir/src/resumable/ResumableDownloader.cc.o
-[193/195] Building CXX object sdk/CMakeFiles/cpp-sdk.dir/src/resumable/ResumableUploader.cc.o
-[194/195] Building CXX object sdk/CMakeFiles/cpp-sdk.dir/src/utils/Utils.cc.o
-[195/195] Linking CXX static library lib/libalibabacloud-oss-cpp-sdk.a
-[210/242] Performing build step for 'dep_metartc'
-FAILED: dep_metartc-prefix/src/dep_metartc-stamp/dep_metartc-build /home/koen/CrealityPrint/deps/build/dep_metartc-prefix/src/dep_metartc-stamp/dep_metartc-build 
-cd /home/koen/CrealityPrint/deps/build/dep_metartc-prefix/src/dep_metartc-build && /usr/bin/cmake --build . --config Release -- -j8 && /usr/bin/cmake -E touch /home/koen/CrealityPrint/deps/build/dep_metartc-prefix/src/dep_metartc-stamp/dep_metartc-build
-[1/155] Building CXX object libmetartc6/CMakeFiles/metartc6.dir/src/yangaudiodev/YangAudioCaptureData.cpp.o
-[2/155] Building CXX object libmetartc6/CMakeFiles/metartc6.dir/src/yangaudiodev/YangAudioCapture.cpp.o
-[3/155] Building CXX object libmetartc6/CMakeFiles/metartc6.dir/src/yangaudiodev/YangAudioRenderData.cpp.o
-[4/155] Building CXX object libmetartc6/CMakeFiles/metartc6.dir/src/yangaudiodev/YangAudioCaptureHandle.cpp.o
-[5/155] Building CXX object libmetartc6/CMakeFiles/metartc6.dir/src/yangdecoder/YangAudioDecoder.cpp.o
-[6/155] Building CXX object libmetartc6/CMakeFiles/metartc6.dir/src/yangdecoder/YangDecoderH264.cpp.o
-[7/155] Building CXX object libmetartc6/CMakeFiles/metartc6.dir/src/yangdecoder/YangDecoderLibde265.cpp.o
-[8/155] Building CXX object libmetartc6/CMakeFiles/metartc6.dir/src/yangdecoder/YangH264DecoderSoft.cpp.o
-[9/155] Building CXX object libmetartc6/CMakeFiles/metartc6.dir/src/yangaudiodev/YangAudioPlay.cpp.o
-[10/155] Building CXX object libmetartc6/CMakeFiles/metartc6.dir/src/yangdecoder/YangAudioDecoderOpus.cpp.o
-[11/155] Building CXX object libmetartc6/CMakeFiles/metartc6.dir/src/yangdecoder/YangH264DecoderSoft2.cpp.o
-[12/155] Building CXX object libmetartc6/CMakeFiles/metartc6.dir/src/yangdecoder/YangDecoderOpenh264.cpp.o
-[13/155] Building CXX object libmetartc6/CMakeFiles/metartc6.dir/src/yangdecoder/YangAudioDecoderHandle.cpp.o
-[14/155] Building CXX object libmetartc6/CMakeFiles/metartc6.dir/src/yangutil/YangLoadLib.cpp.o
-[15/155] Building CXX object libmetartc6/CMakeFiles/metartc6.dir/src/yangutil/YangAvinfo.cpp.o
-[16/155] Building CXX object libmetartc6/CMakeFiles/metartc6.dir/src/yangutil/YangThread.cpp.o
-[17/155] Building CXX object libmetartc6/CMakeFiles/metartc6.dir/src/yangdecoder/YangDecoderMediacodec.cpp.o
-[18/155] Building CXX object libmetartc6/CMakeFiles/metartc6.dir/src/yangutil/YangTimer.cpp.o
-[19/155] Building CXX object libmetartc6/CMakeFiles/metartc6.dir/src/yangdecoder/YangDecoderFactory.cpp.o
-In file included from /home/koen/CrealityPrint/deps/build/dep_metartc-prefix/src/dep_metartc/libmetartc6/src/yangdecoder/pc/YangAudioDecoderAac.h:11,
-                 from /home/koen/CrealityPrint/deps/build/dep_metartc-prefix/src/dep_metartc/libmetartc6/src/yangdecoder/YangDecoderFactory.cpp:13:
-/home/koen/CrealityPrint/deps/build/dep_metartc-prefix/src/dep_metartc/include/faad.h:32:75: note: ‘#pragma message: please update faad2 include filename and function names!’
-   32 | #pragma message("please update faad2 include filename and function names!")
-      |                                                                           ^
-[20/155] Building CXX object libmetartc6/CMakeFiles/metartc6.dir/src/yangutil/buffer/YangAudioBuffer.cpp.o
-[21/155] Building CXX object libmetartc6/CMakeFiles/metartc6.dir/src/yangutil/YangSysMessageHandle.cpp.o
-[22/155] Building CXX object libmetartc6/CMakeFiles/metartc6.dir/src/yangutil/buffer/YangAudioEncoderBuffer.cpp.o
-[23/155] Building CXX object libmetartc6/CMakeFiles/metartc6.dir/src/yangdecoder/YangVideoDecoderHandle.cpp.o
-[24/155] Building CXX object libmetartc6/CMakeFiles/metartc6.dir/src/yangutil/YangString.cpp.o
-[25/155] Building CXX object libmetartc6/CMakeFiles/metartc6.dir/src/yangutil/buffer/YangAudioPlayBuffer.cpp.o
-[26/155] Building CXX object libmetartc6/CMakeFiles/metartc6.dir/src/yangdecoder/YangAudioDecoderHandles.cpp.o
-[27/155] Building CXX object libmetartc6/CMakeFiles/metartc6.dir/src/yangutil/buffer/YangVideoEncoderBuffer.cpp.o
-[28/155] Building CXX object libmetartc6/CMakeFiles/metartc6.dir/src/yangutil/buffer/YangVideoDecoderBuffer.cpp.o
-[29/155] Building CXX object libmetartc6/CMakeFiles/metartc6.dir/src/yangavutil/YangMakeWave.cpp.o
-[30/155] Building CXX object libmetartc6/CMakeFiles/metartc6.dir/src/yangutil/buffer/YangVideoBuffer.cpp.o
-[31/155] Building CXX object libmetartc6/CMakeFiles/metartc6.dir/src/yangdecoder/YangVideoDecoderHandles.cpp.o
-[32/155] Building CXX object libmetartc6/CMakeFiles/metartc6.dir/src/yangstream/YangStreamManager.cpp.o
-[33/155] Building CXX object libmetartc6/CMakeFiles/metartc6.dir/src/yangavutil/YangYuvConvert.cpp.o
-[34/155] Building CXX object libmetartc6/CMakeFiles/metartc6.dir/src/yangstream/YangSynBufferManager.cpp.o
-[35/155] Building CXX object libmetartc6/CMakeFiles/metartc6.dir/src/yangavutil/YangVideoEncoderMeta.cpp.o
-[36/155] Building CXX object libmetartc6/CMakeFiles/metartc6.dir/src/yangdecoder/pc/YangAudioDecoderAac.cpp.o
-In file included from /home/koen/CrealityPrint/deps/build/dep_metartc-prefix/src/dep_metartc/libmetartc6/src/yangdecoder/pc/YangAudioDecoderAac.h:11,
-                 from /home/koen/CrealityPrint/deps/build/dep_metartc-prefix/src/dep_metartc/libmetartc6/src/yangdecoder/pc/YangAudioDecoderAac.cpp:4:
-/home/koen/CrealityPrint/deps/build/dep_metartc-prefix/src/dep_metartc/include/faad.h:32:75: note: ‘#pragma message: please update faad2 include filename and function names!’
-   32 | #pragma message("please update faad2 include filename and function names!")
-      |                                                                           ^
-[37/155] Building CXX object libmetartc6/CMakeFiles/metartc6.dir/src/yangutil/buffer/YangMediaBuffer.cpp.o
-[38/155] Building CXX object libmetartc6/CMakeFiles/metartc6.dir/src/yangdecoder/pc/YangAudioDecoderSpeex.cpp.o
-[39/155] Building C object libmetartccore6/CMakeFiles/metartccore6.dir/src/yangutil/sys/YangAvtype.c.o
-[40/155] Building CXX object libmetartc6/CMakeFiles/metartc6.dir/src/yangrtc/YangPeerConnection2.cpp.o
-[41/155] Building C object libmetartccore6/CMakeFiles/metartccore6.dir/src/yangutil/sys/YangCString.c.o
-[42/155] Building CXX object libmetartc6/CMakeFiles/metartc6.dir/src/yangaudiodev/linux/YangAudioPlayLinux.cpp.o
-[43/155] Building CXX object libmetartc6/CMakeFiles/metartc6.dir/src/yangstream/YangSynBuffer.cpp.o
-[44/155] Building C object libmetartccore6/CMakeFiles/metartccore6.dir/src/yangutil/sys/YangBuffer.c.o
-[45/155] Building C object libmetartccore6/CMakeFiles/metartccore6.dir/src/yangutil/sys/YangEndian.c.o
-[46/155] Building C object libmetartccore6/CMakeFiles/metartccore6.dir/src/yangutil/sys/YangCLog.c.o
-[47/155] Building C object libmetartccore6/CMakeFiles/metartccore6.dir/src/yangutil/sys/YangFile.c.o
-[48/155] Building C object libmetartccore6/CMakeFiles/metartccore6.dir/src/yangutil/sys/YangCTimer.c.o
-[49/155] Building CXX object libmetartc6/CMakeFiles/metartc6.dir/src/yangdecoder/pc/YangHeaderParseFfmpeg.cpp.o
-[50/155] Building C object libmetartccore6/CMakeFiles/metartccore6.dir/src/yangutil/sys/YangLibHandle.c.o
-[51/155] Building C object libmetartccore6/CMakeFiles/metartccore6.dir/src/yangutil/sys/YangHttp.c.o
-[52/155] Building C object libmetartccore6/CMakeFiles/metartccore6.dir/src/yangutil/sys/YangMath.c.o
-[53/155] Building C object libmetartccore6/CMakeFiles/metartccore6.dir/src/yangutil/sys/YangSRtp.c.o
-[54/155] Building CXX object libmetartc6/CMakeFiles/metartc6.dir/src/yangdecoder/pc/YangVideoDecoderFfmpeg.cpp.o
-[55/155] Building CXX object libmetartc6/CMakeFiles/metartc6.dir/src/yangaudiodev/linux/YangAudioAecLinux.cpp.o
-[56/155] Building C object libmetartccore6/CMakeFiles/metartccore6.dir/src/yangutil/sys/YangThread.c.o
-[57/155] Building C object libmetartccore6/CMakeFiles/metartccore6.dir/src/yangutil/sys/YangTime.c.o
-[58/155] Building C object libmetartccore6/CMakeFiles/metartccore6.dir/src/yangutil/sys/YangSocketIP.c.o
-[59/155] Building C object libmetartccore6/CMakeFiles/metartccore6.dir/src/yangutil/sys/YangSsrc.c.o
-[60/155] Building C object libmetartccore6/CMakeFiles/metartccore6.dir/src/yangutil/sys/YangWebsocket.c.o
-[61/155] Building C object libmetartccore6/CMakeFiles/metartccore6.dir/src/yangutil/sys/YangIni.c.o
-[62/155] Building C object libmetartccore6/CMakeFiles/metartccore6.dir/src/yangutil/sys/YangSocket.c.o
-[63/155] Building C object libmetartccore6/CMakeFiles/metartccore6.dir/src/yangutil/sys/YangVector.c.o
-[64/155] Building C object libmetartccore6/CMakeFiles/metartccore6.dir/src/yangutil/buffer2/YangVideoEncoderBuffer2.c.o
-[65/155] Building C object libmetartccore6/CMakeFiles/metartccore6.dir/src/yangavutil/YangAudioMix.c.o
-[66/155] Building C object libmetartccore6/CMakeFiles/metartccore6.dir/src/yangutil/buffer2/YangSortBuffer.c.o
-[67/155] Building C object libmetartccore6/CMakeFiles/metartccore6.dir/src/yangutil/sys/YangSctp.c.o
-[68/155] Building C object libmetartccore6/CMakeFiles/metartccore6.dir/src/yangavutil/YangAudioUtil.c.o
-[69/155] Building C object libmetartccore6/CMakeFiles/metartccore6.dir/src/yangutil/buffer2/YangMediaBuffer2.c.o
-[70/155] Building C object libmetartccore6/CMakeFiles/metartccore6.dir/src/yangutil/sys/YangUrl.c.o
-[71/155] Building C object libmetartccore6/CMakeFiles/metartccore6.dir/src/yangavutil/YangResample.c.o
-[72/155] Building C object libmetartccore6/CMakeFiles/metartccore6.dir/src/yangavutil/YangPreProcess.c.o
-[73/155] Building C object libmetartccore6/CMakeFiles/metartccore6.dir/src/yangavutil/YangRtcAec.c.o
-[74/155] Building C object libmetartccore6/CMakeFiles/metartccore6.dir/src/yangavutil/YangNalu.c.o
-[75/155] Building C object libmetartccore6/CMakeFiles/metartccore6.dir/src/yangavutil/YangYuvUtil.c.o
-[76/155] Building C object libmetartccore6/CMakeFiles/metartccore6.dir/src/yangavutil/YangMeta.c.o
-[77/155] Building C object libmetartccore6/CMakeFiles/metartccore6.dir/src/yangjson/YangJson.c.o
-[78/155] Building C object libmetartccore6/CMakeFiles/metartccore6.dir/src/yangavutil/YangSpspps.c.o
-[79/155] Building C object libmetartccore6/CMakeFiles/metartccore6.dir/src/yangice/YangRtcSocket.c.o
-[80/155] Building C object libmetartccore6/CMakeFiles/metartccore6.dir/src/yangsrs/YangSrsConnection.c.o
-[81/155] Building C object libmetartccore6/CMakeFiles/metartccore6.dir/src/yangice/YangIce.c.o
-[82/155] Building C object libmetartccore6/CMakeFiles/metartccore6.dir/src/yangsdp/YangAnswerSdp.c.o
-[83/155] Building C object libmetartccore6/CMakeFiles/metartccore6.dir/src/yangsdp/YangCodecPayload.c.o
-[84/155] Building C object libmetartccore6/CMakeFiles/metartccore6.dir/src/yangsdp/YangAudioPayload.c.o
-[85/155] Building C object libmetartccore6/CMakeFiles/metartccore6.dir/src/yangsdp/YangRedPayload.c.o
-[86/155] Building C object libmetartccore6/CMakeFiles/metartccore6.dir/src/yangsdp/YangRtxPayloadDes.c.o
-[87/155] Building C object libmetartccore6/CMakeFiles/metartccore6.dir/src/yangavutil/YangConvert.c.o
-[88/155] Building C object libmetartccore6/CMakeFiles/metartccore6.dir/src/yangsdp/YangMediaPayloadType.c.o
-[89/155] Building C object libmetartccore6/CMakeFiles/metartccore6.dir/src/yangsdp/YangSSRCInfo.c.o
-[90/155] Building C object libmetartccore6/CMakeFiles/metartccore6.dir/src/yangstream/YangStream.c.o
-[91/155] Building C object libmetartccore6/CMakeFiles/metartccore6.dir/src/yangsdp/YangRtcSdp.c.o
-[92/155] Building C object libmetartccore6/CMakeFiles/metartccore6.dir/src/yangsdp/YangSdpHandle.c.o
-[93/155] Building C object libmetartccore6/CMakeFiles/metartccore6.dir/src/yangrtp/YangPublishNackBuffer.c.o
-[94/155] Building C object libmetartccore6/CMakeFiles/metartccore6.dir/src/yangice/YangRtcStun.c.o
-[95/155] Building C object libmetartccore6/CMakeFiles/metartccore6.dir/src/yangice/YangTurnConnection.c.o
-[96/155] Building C object libmetartccore6/CMakeFiles/metartccore6.dir/src/yangrtp/YangRtcp.c.o
-[97/155] Building C object libmetartccore6/CMakeFiles/metartccore6.dir/src/yangrtp/YangReceiveNackBuffer.c.o
-[98/155] Building C object libmetartccore6/CMakeFiles/metartccore6.dir/src/yangstream/YangStreamRtc.c.o
-[99/155] Building C object libmetartccore6/CMakeFiles/metartccore6.dir/src/yangstream/YangStreamCapture.c.o
-[100/155] Building C object libmetartccore6/CMakeFiles/metartccore6.dir/src/yangrtp/YangRtcpBye.c.o
-[101/155] Building C object libmetartccore6/CMakeFiles/metartccore6.dir/src/yangrtp/YangRtcpApp.c.o
-[102/155] Building C object libmetartccore6/CMakeFiles/metartccore6.dir/src/yangrtp/YangRtcpCompound.c.o
-[103/155] Building C object libmetartccore6/CMakeFiles/metartccore6.dir/src/yangsdp/YangSdp.c.o
-[104/155] Building C object libmetartccore6/CMakeFiles/metartccore6.dir/src/yangrtp/YangRtcpPli.c.o
-[105/155] Building C object libmetartccore6/CMakeFiles/metartccore6.dir/src/yangrtp/YangRtcpCommon.c.o
-[106/155] Building C object libmetartccore6/CMakeFiles/metartccore6.dir/src/yangrtp/YangRtcpRpsi.c.o
-[107/155] Building C object libmetartccore6/CMakeFiles/metartccore6.dir/src/yangrtp/YangRtcpSli.c.o
-[108/155] Building C object libmetartccore6/CMakeFiles/metartccore6.dir/src/yangrtp/YangRtcpPsfbCommon.c.o
-[109/155] Building C object libmetartccore6/CMakeFiles/metartccore6.dir/src/yangrtp/YangRtcpXr.c.o
-[110/155] Building C object libmetartccore6/CMakeFiles/metartccore6.dir/src/yangsdp/YangMediaDesc.c.o
-[111/155] Building C object libmetartccore6/CMakeFiles/metartccore6.dir/src/yangrtp/YangRtcpRR.c.o
-[112/155] Building C object libmetartccore6/CMakeFiles/metartccore6.dir/src/yangrtp/YangRtcpSR.c.o
-[113/155] Building C object libmetartccore6/CMakeFiles/metartccore6.dir/src/yangrtp/YangRtpFUAPayload.c.o
-[114/155] Building C object libmetartccore6/CMakeFiles/metartccore6.dir/src/yangrtp/YangRtcpNack.c.o
-[115/155] Building C object libmetartccore6/CMakeFiles/metartccore6.dir/src/yangrtp/YangRtp.c.o
-[116/155] Building C object libmetartccore6/CMakeFiles/metartccore6.dir/src/yangrtp/YangRtpBuffer.c.o
-[117/155] Building C object libmetartccore6/CMakeFiles/metartccore6.dir/src/yangrtp/YangRtpHeader.c.o
-[118/155] Building C object libmetartccore6/CMakeFiles/metartccore6.dir/src/yangrtp/YangRtpFUAPayload2.c.o
-[119/155] Building C object libmetartccore6/CMakeFiles/metartccore6.dir/src/yangrtp/YangRtpRawPayload.c.o
-[120/155] Building C object libmetartccore6/CMakeFiles/metartccore6.dir/src/yangrtc/YangAec.c.o
-[121/155] Building C object libmetartccore6/CMakeFiles/metartccore6.dir/src/yangrtp/YangRtpPacket.c.o
-[122/155] Building C object libmetartccore6/CMakeFiles/metartccore6.dir/src/yangrtc/YangBandwidth.c.o
-[123/155] Building C object libmetartccore6/CMakeFiles/metartccore6.dir/src/yangrtc/YangDatachannel.c.o
-[124/155] Building C object libmetartccore6/CMakeFiles/metartccore6.dir/src/yangrtp/YangRtpRecvNack.c.o
-[125/155] Building C object libmetartccore6/CMakeFiles/metartccore6.dir/src/yangjson/YangJsonImpl.c.o
-[126/155] Building C object libmetartccore6/CMakeFiles/metartccore6.dir/src/yangrtp/YangRtcpTWCC.c.o
-[127/155] Building C object libmetartccore6/CMakeFiles/metartccore6.dir/src/yangrtp/YangRtpSTAPPayload.c.o
-[128/155] Building C object libmetartccore6/CMakeFiles/metartccore6.dir/src/yangrtc/YangPlayTrack.c.o
-[129/155] Building C object libmetartccore6/CMakeFiles/metartccore6.dir/src/yangrtc/YangPlayTrackAudio.c.o
-[130/155] Building C object libmetartccore6/CMakeFiles/metartccore6.dir/src/yangrtc/YangPlayTrackVideo.c.o
-[131/155] Building C object libmetartccore6/CMakeFiles/metartccore6.dir/src/yangrtc/YangPeerConnection.c.o
-[132/155] Building C object libmetartccore6/CMakeFiles/metartccore6.dir/src/yangrtc/YangPushAudio.c.o
-[133/155] Building C object libmetartccore6/CMakeFiles/metartccore6.dir/src/yangrtc/YangPush.c.o
-[134/155] Building C object libmetartccore6/CMakeFiles/metartccore6.dir/src/yangrtc/YangPlayStream.c.o
-[135/155] Building C object libmetartccore6/CMakeFiles/metartccore6.dir/src/yangrtc/YangPushStream.c.o
-[136/155] Building C object libmetartccore6/CMakeFiles/metartccore6.dir/src/yangrtc/YangRtcContext.c.o
-[137/155] Building C object libmetartccore6/CMakeFiles/metartccore6.dir/src/yangrtc/YangPlayTrackH264.c.o
-[138/155] Building C object libmetartccore6/CMakeFiles/metartccore6.dir/src/yangrtc/YangRtcStats.c.o
-[139/155] Building C object libmetartccore6/CMakeFiles/metartccore6.dir/src/yangrtc/YangPushH264.c.o
-[140/155] Building C object libmetartccore6/CMakeFiles/metartccore6.dir/src/yangrtc/YangRtcConnection.c.o
-FAILED: libmetartccore6/CMakeFiles/metartccore6.dir/src/yangrtc/YangRtcConnection.c.o 
-/usr/bin/cc -D__STDC_FORMAT_MACROS -I/home/koen/CrealityPrint/deps/build/dep_metartc-prefix/src/dep_metartc/libmetartccore6/../include -I/home/koen/CrealityPrint/deps/build/dep_metartc-prefix/src/dep_metartc/libmetartccore6/../thirdparty/include -I/home/koen/CrealityPrint/deps/build/dep_metartc-prefix/src/dep_metartc/libmetartccore6/../thirdparty/user_include -I/home/koen/CrealityPrint/deps/build/dep_metartc-prefix/src/dep_metartc/libmetartccore6/../thirdparty/user_include/gmssl -I/home/koen/CrealityPrint/deps/build/dep_metartc-prefix/src/dep_metartc/libmetartccore6/../thirdparty/user_include/mbedtls3 -I/home/koen/CrealityPrint/deps/build/dep_metartc-prefix/src/dep_metartc/libmetartccore6/../libmetartccore6/src -O2 -std=gnu11 -O3 -DNDEBUG -fPIC -MD -MT libmetartccore6/CMakeFiles/metartccore6.dir/src/yangrtc/YangRtcConnection.c.o -MF libmetartccore6/CMakeFiles/metartccore6.dir/src/yangrtc/YangRtcConnection.c.o.d -o libmetartccore6/CMakeFiles/metartccore6.dir/src/yangrtc/YangRtcConnection.c.o -c /home/koen/CrealityPrint/deps/build/dep_metartc-prefix/src/dep_metartc/libmetartccore6/src/yangrtc/YangRtcConnection.c
-/home/koen/CrealityPrint/deps/build/dep_metartc-prefix/src/dep_metartc/libmetartccore6/src/yangrtc/YangRtcConnection.c: In function ‘yang_destroy_rtcConnection’:
-/home/koen/CrealityPrint/deps/build/dep_metartc-prefix/src/dep_metartc/libmetartccore6/src/yangrtc/YangRtcConnection.c:757:38: error: initialization of ‘YangRtcSocketSession *’ from incompatible pointer type ‘YangRtcSocket *’ [-Wincompatible-pointer-types]
-  757 |         YangRtcSocketSession *sock = session->context.sock;
-      |                                      ^~~~~~~
-[141/155] Building C object libmetartccore6/CMakeFiles/metartccore6.dir/src/yangrtc/YangPlayTrackH265.c.o
-[142/155] Building C object libmetartccore6/CMakeFiles/metartccore6.dir/src/yangrtc/YangPushH265.c.o
-[143/155] Building C object libmetartccore6/CMakeFiles/metartccore6.dir/src/yangrtc/YangStreamUrl.c.o
-[144/155] Building C object libmetartccore6/CMakeFiles/metartccore6.dir/src/yangrtc/YangRtcTwcc.c.o
-[145/155] Building C object libmetartccore6/CMakeFiles/metartccore6.dir/src/yangzlm/YangZlmConnection.c.o
-[146/155] Building C object libmetartccore6/CMakeFiles/metartccore6.dir/src/yangrtc/YangRtcRtcp.c.o
-[147/155] Building C object libmetartccore6/CMakeFiles/metartccore6.dir/src/yangp2p/YangP2pConnection.c.o
-ninja: build stopped: subcommand failed.
+INSTALL	libavfilter/buffersrc.h
+INSTALL	libavfilter/version.h
+INSTALL	libavfilter/libavfilter.pc
+INSTALL	libavformat/avformat.h
+INSTALL	libavformat/avio.h
+INSTALL	libavformat/version.h
+INSTALL	libavformat/libavformat.pc
+INSTALL	libavcodec/ac3_parser.h
+INSTALL	libavcodec/adts_parser.h
+INSTALL	libavcodec/avcodec.h
+INSTALL	libavcodec/avdct.h
+INSTALL	libavcodec/avfft.h
+INSTALL	libavcodec/d3d11va.h
+INSTALL	libavcodec/dirac.h
+INSTALL	libavcodec/dv_profile.h
+INSTALL	libavcodec/dxva2.h
+INSTALL	libavcodec/jni.h
+INSTALL	libavcodec/mediacodec.h
+INSTALL	libavcodec/qsv.h
+INSTALL	libavcodec/vaapi.h
+INSTALL	libavcodec/vdpau.h
+INSTALL	libavcodec/version.h
+INSTALL	libavcodec/videotoolbox.h
+INSTALL	libavcodec/vorbis_parser.h
+INSTALL	libavcodec/xvmc.h
+INSTALL	libavcodec/libavcodec.pc
+INSTALL	libpostproc/postprocess.h
+INSTALL	libpostproc/version.h
+INSTALL	libpostproc/libpostproc.pc
+INSTALL	libswresample/swresample.h
+INSTALL	libswresample/version.h
+INSTALL	libswresample/libswresample.pc
+INSTALL	libswscale/swscale.h
+INSTALL	libswscale/version.h
+INSTALL	libswscale/libswscale.pc
+INSTALL	libavutil/adler32.h
+INSTALL	libavutil/aes.h
+INSTALL	libavutil/aes_ctr.h
+INSTALL	libavutil/attributes.h
+INSTALL	libavutil/audio_fifo.h
+INSTALL	libavutil/avassert.h
+INSTALL	libavutil/avstring.h
+INSTALL	libavutil/avutil.h
+INSTALL	libavutil/base64.h
+INSTALL	libavutil/blowfish.h
+INSTALL	libavutil/bprint.h
+INSTALL	libavutil/bswap.h
+INSTALL	libavutil/buffer.h
+INSTALL	libavutil/cast5.h
+INSTALL	libavutil/camellia.h
+INSTALL	libavutil/channel_layout.h
+INSTALL	libavutil/common.h
+INSTALL	libavutil/cpu.h
+INSTALL	libavutil/crc.h
+INSTALL	libavutil/des.h
+INSTALL	libavutil/dict.h
+INSTALL	libavutil/display.h
+INSTALL	libavutil/downmix_info.h
+INSTALL	libavutil/encryption_info.h
+INSTALL	libavutil/error.h
+INSTALL	libavutil/eval.h
+INSTALL	libavutil/fifo.h
+INSTALL	libavutil/file.h
+INSTALL	libavutil/frame.h
+INSTALL	libavutil/hash.h
+INSTALL	libavutil/hdr_dynamic_metadata.h
+INSTALL	libavutil/hmac.h
+INSTALL	libavutil/hwcontext.h
+INSTALL	libavutil/hwcontext_cuda.h
+INSTALL	libavutil/hwcontext_d3d11va.h
+INSTALL	libavutil/hwcontext_drm.h
+INSTALL	libavutil/hwcontext_dxva2.h
+INSTALL	libavutil/hwcontext_qsv.h
+INSTALL	libavutil/hwcontext_mediacodec.h
+INSTALL	libavutil/hwcontext_vaapi.h
+INSTALL	libavutil/hwcontext_videotoolbox.h
+INSTALL	libavutil/hwcontext_vdpau.h
+INSTALL	libavutil/imgutils.h
+INSTALL	libavutil/intfloat.h
+INSTALL	libavutil/intreadwrite.h
+INSTALL	libavutil/lfg.h
+INSTALL	libavutil/log.h
+INSTALL	libavutil/macros.h
+INSTALL	libavutil/mathematics.h
+INSTALL	libavutil/mastering_display_metadata.h
+INSTALL	libavutil/md5.h
+INSTALL	libavutil/mem.h
+INSTALL	libavutil/motion_vector.h
+INSTALL	libavutil/murmur3.h
+INSTALL	libavutil/opt.h
+INSTALL	libavutil/parseutils.h
+INSTALL	libavutil/pixdesc.h
+INSTALL	libavutil/pixelutils.h
+INSTALL	libavutil/pixfmt.h
+INSTALL	libavutil/random_seed.h
+INSTALL	libavutil/rc4.h
+INSTALL	libavutil/rational.h
+INSTALL	libavutil/replaygain.h
+INSTALL	libavutil/ripemd.h
+INSTALL	libavutil/samplefmt.h
+INSTALL	libavutil/sha.h
+INSTALL	libavutil/sha512.h
+INSTALL	libavutil/spherical.h
+INSTALL	libavutil/stereo3d.h
+INSTALL	libavutil/threadmessage.h
+INSTALL	libavutil/time.h
+INSTALL	libavutil/timecode.h
+INSTALL	libavutil/timestamp.h
+INSTALL	libavutil/tree.h
+INSTALL	libavutil/twofish.h
+INSTALL	libavutil/version.h
+INSTALL	libavutil/xtea.h
+INSTALL	libavutil/tea.h
+INSTALL	libavutil/tx.h
+INSTALL	libavutil/lzo.h
+INSTALL	libavutil/avconfig.h
+INSTALL	libavutil/ffversion.h
+INSTALL	libavutil/libavutil.pc
+[11/11] Completed 'dep_FFmpeg'
+Configuring CrealityPrint...
+cmake -S . -B build -G Ninja -DCMAKE_PREFIX_PATH=/home/koen/CrealityPrint/deps/build/destdir/usr/local -DSLIC3R_STATIC=1 -DSLIC3R_GTK=3 -DBBL_RELEASE_TO_PUBLIC=1 -DBBL_INTERNAL_TESTING=0 -DUPDATE_ONLINE_MACHINES=1
+-- SLIC3R_ASAN: OFF
+-- SLIC3R_BUILD_SANDBOXES: OFF
+-- SLIC3R_BUILD_TESTS: OFF
+-- SLIC3R_DESKTOP_INTEGRATION: ON
+-- SLIC3R_ENC_CHECK: ON
+-- SLIC3R_FHS: OFF
+-- SLIC3R_GTK: 3
+-- SLIC3R_GUI: ON
+-- SLIC3R_MSVC_COMPILE_PARALLEL: ON
+-- SLIC3R_MSVC_PDB: ON
+-- SLIC3R_PCH: ON
+-- SLIC3R_PERL_XS: OFF
+-- SLIC3R_PROFILE: OFF
+-- SLIC3R_STATIC: 1
+-- SLIC3R_WX_STABLE: OFF
+-- SLIC3R_STATIC: 1
+-- CMAKE_PREFIX_PATH: /home/koen/CrealityPrint/deps/build/destdir/usr/local (from cache or command line)
+-- PROJECT_SOURCE_DIR: /home/koen/CrealityPrint
+-- CMAKE_MODULE_PATH: /home/koen/CrealityPrint/cmake/;/home/koen/CrealityPrint/cmake/modules/
+-- LIBDIR: /home/koen/CrealityPrint/src
+-- LIBDIR_BIN: /home/koen/CrealityPrint/build/src
+-- Using static boost libraries
+-- Found Boost: /home/koen/CrealityPrint/deps/build/destdir/usr/local/lib/cmake/Boost-1.84.0/BoostConfig.cmake (found suitable version "1.84.0", minimum required is "1.66") found components: system filesystem thread log locale regex chrono atomic date_time iostreams program_options
+-- TBB found in /home/koen/CrealityPrint/deps/build/destdir/usr/local/lib/cmake/TBB
+-- FindGLEW: GLEW_USE_STATIC_LIBS: ON.
+-- FindGLEW: GLEW_INCLUDE_DIR: /home/koen/CrealityPrint/deps/build/destdir/usr/local/include
+-- FindGLEW: GLEW_INCLUDE_DIRS: /home/koen/CrealityPrint/deps/build/destdir/usr/local/include
+-- FindGLEW: CMAKE_FIND_LIBRARY_SUFFIXES for SHARED: .so
+-- FindGLEW: CMAKE_FIND_LIBRARY_SUFFIXES for STATIC: .a
+-- FindGLEW: GLEW_SHARED_LIBRARY_RELEASE: /usr/lib/aarch64-linux-gnu/libGLEW.so
+-- FindGLEW: GLEW_STATIC_LIBRARY_RELEASE: /home/koen/CrealityPrint/deps/build/destdir/usr/local/lib/libGLEW.a
+-- FindGLEW: GLEW_SHARED_LIBRARY_DEBUG: GLEW_SHARED_LIBRARY_DEBUG-NOTFOUND
+-- FindGLEW: GLEW_STATIC_LIBRARY_DEBUG: GLEW_STATIC_LIBRARY_DEBUG-NOTFOUND
+-- FindGLEW: GLEW_SHARED_LIBRARY: /usr/lib/aarch64-linux-gnu/libGLEW.so
+-- FindGLEW: GLEW_STATIC_LIBRARY: /home/koen/CrealityPrint/deps/build/destdir/usr/local/lib/libGLEW.a
+-- FindGLEW: GLEW_LIBRARIES: /home/koen/CrealityPrint/deps/build/destdir/usr/local/lib/libGLEW.a
+-- FindGLEW: GLEW_VERSION_MAJOR: 2
+-- FindGLEW: GLEW_VERSION_MINOR: 2
+-- FindGLEW: GLEW_VERSION_MICRO: 0
+-- FindGLEW: GLEW_VERSION: 2.2.0
+-- FindGLEW: Creating GLEW::glew_s imported target.
+-- FindGLEW: Creating GLEW::GLEW imported target.
+-- Found NLopt in '/home/koen/CrealityPrint/deps/build/destdir/usr/local/lib'.
+-- Using NLopt include directory '/home/koen/CrealityPrint/deps/build/destdir/usr/local/include'.
+-- Using NLopt library '/home/koen/CrealityPrint/deps/build/destdir/usr/local/lib/libnlopt.a'.
+-- SPNAV library found: 1
+-- OpenVDB ABI Version: 8
+-- TBB found in /home/koen/CrealityPrint/deps/build/destdir/usr/local/lib/cmake/TBB
+-- Found Boost: /home/koen/CrealityPrint/deps/build/destdir/usr/local/lib/cmake/Boost-1.84.0/BoostConfig.cmake (found version "1.84.0") found components: iostreams system
+-- OpenVDB libraries: /home/koen/CrealityPrint/deps/build/destdir/usr/local/lib/libopenvdb.a
+-- SPNAV library found
+-- Minilzo using bundled version...
+-- Using qhull from system.
+-- IGL NOT found, using bundled version...
+-- [MCUT] version: 1.2.0
+-- [MCUT] MCUT_INCLUDE_DIR=/home/koen/CrealityPrint/src/mcut/include
+-- [MCUT] compilation_flags=-Wall;-Wextra
+-- [MCUT] preprocessor_defs=-DMCUT_WITH_COMPUTE_HELPER_THREADPOOL=1
+-- [MCUT] extra_libs=Threads::Threads
+-- [MCUT] create target: name=mcut type=STATIC
+-- [MCUT] MCUT_LIB_PATH=$<TARGET_FILE:mcut>
+-- FFmpeg::avcodec library found: /home/koen/CrealityPrint/deps/build/destdir/usr/local/lib/libavcodec.a
+-- FFmpeg::avformat library found: /home/koen/CrealityPrint/deps/build/destdir/usr/local/lib/libavformat.a
+-- FFmpeg::avutil library found: /home/koen/CrealityPrint/deps/build/destdir/usr/local/lib/libavutil.a
+-- FFmpeg::avdevice library found: /home/koen/CrealityPrint/deps/build/destdir/usr/local/lib/libavdevice.a
+-- FFmpeg::avfilter library found: /home/koen/CrealityPrint/deps/build/destdir/usr/local/lib/libavfilter.a
+-- FFmpeg::swscale library found: /home/koen/CrealityPrint/deps/build/destdir/usr/local/lib/libswscale.a
+-- FFmpeg::swresample library found: /home/koen/CrealityPrint/deps/build/destdir/usr/local/lib/libswresample.a
+-- Before CGAL_ENABLE_VLD=0
+-- Using header-only CGAL
+-- Targetting Ninja
+-- Using /usr/bin/c++ compiler.
+-- Found Boost: /home/koen/CrealityPrint/deps/build/destdir/usr/local/lib/cmake/Boost-1.84.0/BoostConfig.cmake (found suitable version "1.84.0", minimum required is "1.48")
+-- Boost include dirs: /home/koen/CrealityPrint/deps/build/destdir/usr/local/include
+-- Boost libraries:    
+-- Using gcc version 4 or later. Adding -frounding-math
+-- Adding precompiled header pchheader.hpp to target libslic3r.
+-- wx-config path: /home/koen/CrealityPrint/deps/build/destdir/usr/local/bin/wx-config
+-- wx libs: -L/home/koen/CrealityPrint/deps/build/destdir/usr/local//lib;-pthread;/home/koen/CrealityPrint/deps/build/destdir/usr/local//lib/libwx_gtk3u_gl-3.1.a;/home/koen/CrealityPrint/deps/build/destdir/usr/local//lib/libwx_gtk3u_aui-3.1.a;/home/koen/CrealityPrint/deps/build/destdir/usr/local//lib/libwx_baseu_net-3.1.a;/home/koen/CrealityPrint/deps/build/destdir/usr/local//lib/libwx_gtk3u_media-3.1.a;/home/koen/CrealityPrint/deps/build/destdir/usr/local//lib/libwx_gtk3u_webview-3.1.a;/home/koen/CrealityPrint/deps/build/destdir/usr/local//lib/libwx_gtk3u_html-3.1.a;/home/koen/CrealityPrint/deps/build/destdir/usr/local//lib/libwx_gtk3u_core-3.1.a;/home/koen/CrealityPrint/deps/build/destdir/usr/local//lib/libwx_baseu-3.1.a;gtk-3;gdk-3;z;pangocairo-1.0;pango-1.0;harfbuzz;atk-1.0;cairo-gobject;cairo;gdk_pixbuf-2.0;gio-2.0;gobject-2.0;glib-2.0;libSM.so;libICE.so;libX11.so;libXext.so;EGL;wayland-egl;wayland-client;gtk-3;gdk-3;z;pangocairo-1.0;pango-1.0;harfbuzz;atk-1.0;cairo-gobject;cairo;gdk_pixbuf-2.0;gio-2.0;gobject-2.0;glib-2.0;libSM.so;libICE.so;libX11.so;libXext.so;libgstreamer-1.0.so;libgstvideo-1.0.so;gtk-3;gdk-3;z;pangocairo-1.0;pango-1.0;harfbuzz;atk-1.0;cairo-gobject;cairo;gdk_pixbuf-2.0;gio-2.0;gobject-2.0;glib-2.0;libSM.so;libICE.so;libX11.so;libXext.so;libsoup-3.0.so;libwebkit2gtk-4.1.so;libjavascriptcoregtk-4.1.so;gtk-3;gdk-3;z;pangocairo-1.0;pango-1.0;harfbuzz;atk-1.0;cairo-gobject;cairo;gdk_pixbuf-2.0;gio-2.0;gobject-2.0;glib-2.0;libSM.so;libICE.so;libX11.so;libXext.so;-lwx_gtk3u_core-3.1;libmspack.so;gtk-3;gdk-3;z;pangocairo-1.0;pango-1.0;harfbuzz;atk-1.0;cairo-gobject;cairo;gdk_pixbuf-2.0;gio-2.0;gobject-2.0;glib-2.0;libSM.so;libICE.so;libX11.so;libXext.so;-lwx_baseu-3.1;libz.so;m;libfontconfig.so;libpangoft2-1.0.so;gtk-3;gdk-3;z;pangocairo-1.0;pango-1.0;harfbuzz;atk-1.0;cairo-gobject;cairo;gdk_pixbuf-2.0;gio-2.0;gobject-2.0;glib-2.0;libSM.so;libICE.so;libX11.so;libXext.so;libz.so;-lwxregexu-3.1;secret-1;gio-2.0;gobject-2.0;glib-2.0;libc.so;dl;/home/koen/CrealityPrint/deps/build/destdir/usr/local/lib/libpng.a;/usr/lib/aarch64-linux-gnu/libz.so;m;/home/koen/CrealityPrint/deps/build/destdir/usr/local/lib/libtiff.a;/home/koen/CrealityPrint/deps/build/destdir/usr/local/lib/libjpeg.a;/usr/lib/aarch64-linux-gnu/libexpat.so;/usr/lib/aarch64-linux-gnu/librt.a;/home/koen/CrealityPrint/deps/build/destdir/usr/local/lib/libalibabacloud-oss-cpp-sdk.a;OpenSSL::SSL;OpenSSL::Crypto;PahoMqttCpp::paho-mqttpp3-static
+-- FFmpeg::avcodec library found: /home/koen/CrealityPrint/deps/build/destdir/usr/local/lib/libavcodec.a
+-- FFmpeg::avformat library found: /home/koen/CrealityPrint/deps/build/destdir/usr/local/lib/libavformat.a
+-- FFmpeg::avutil library found: /home/koen/CrealityPrint/deps/build/destdir/usr/local/lib/libavutil.a
+-- FFmpeg::avdevice library found: /home/koen/CrealityPrint/deps/build/destdir/usr/local/lib/libavdevice.a
+-- FFmpeg::avfilter library found: /home/koen/CrealityPrint/deps/build/destdir/usr/local/lib/libavfilter.a
+-- FFmpeg::swscale library found: /home/koen/CrealityPrint/deps/build/destdir/usr/local/lib/libswscale.a
+-- FFmpeg::swresample library found: /home/koen/CrealityPrint/deps/build/destdir/usr/local/lib/libswresample.a
+-- Adding precompiled header pchheader.hpp to target libslic3r_gui.
+-- Visual Leak Detector (VLD) not found, proceeding without it.
+-- libslic3r-CMAKE_BUILD_TYPE: Release
+-- CMAKE_CURRENT_BINARY_DIR: /home/koen/CrealityPrint/build/src
+-- CMAKE_INSTALL_BINDIR=./
+-- CMAKE_INSTALL_FULL_DATAROOTDIR =/usr/local/share
+-- CMAKE_INSTALL_PREFIX333=/usr/local
+-- SLIC3R_RESOURCES_DIR222=/home/koen/CrealityPrint/resources
+-- CMAKE_CXX_FLAGS:  -fext-numeric-literals -Wall -Wno-reorder
+-- Configuring done (1.6s)
+-- Generating done (0.2s)
+-- Build files have been written to: /home/koen/CrealityPrint/build
+done
+Building CrealityPrint ...
+[1/7] Building CXX object src/video/CMakeFiles/webrtc_video.dir/RTSPDecoder.cpp.o
+[2/7] Linking CXX static library src/video/libwebrtc_video.a
+[3/7] Building CXX object src/slic3r/CMakeFiles/libslic3r_gui.dir/GUI/print_manage/App/PrinterMgrView.cpp.o
+In file included from /home/koen/CrealityPrint/deps/build/destdir/usr/local/include/boost/function/detail/requires_cxx11.hpp:9,
+                 from /home/koen/CrealityPrint/deps/build/destdir/usr/local/include/boost/function/detail/prologue.hpp:12,
+                 from /home/koen/CrealityPrint/deps/build/destdir/usr/local/include/boost/function.hpp:30,
+                 from /home/koen/CrealityPrint/deps/build/destdir/usr/local/include/boost/algorithm/string/detail/find_iterator.hpp:18,
+                 from /home/koen/CrealityPrint/deps/build/destdir/usr/local/include/boost/algorithm/string/find_iterator.hpp:24,
+                 from /home/koen/CrealityPrint/deps/build/destdir/usr/local/include/boost/algorithm/string/iter_find.hpp:27,
+                 from /home/koen/CrealityPrint/deps/build/destdir/usr/local/include/boost/algorithm/string/split.hpp:16,
+                 from /home/koen/CrealityPrint/deps/build/destdir/usr/local/include/boost/algorithm/string.hpp:23,
+                 from /home/koen/CrealityPrint/src/slic3r/pchheader.hpp:60,
+                 from /home/koen/CrealityPrint/build/src/slic3r/CMakeFiles/libslic3r_gui.dir/cmake_pch.hxx:5,
+                 from <command-line>:
+/home/koen/CrealityPrint/deps/build/destdir/usr/local/include/boost/bind.hpp:36:1: note: ‘#pragma message: The practice of declaring the Bind placeholders (_1, _2, ...) in the global namespace is deprecated. Please use <boost/bind/bind.hpp> + using namespace boost::placeholders, or define BOOST_BIND_GLOBAL_PLACEHOLDERS to retain the current behavior.’
+   36 | BOOST_PRAGMA_MESSAGE(
+      | ^~~~~~~~~~~~~~~~~~~~
+In file included from /home/koen/CrealityPrint/deps/build/destdir/usr/local/include/boost/asio/ssl/error.hpp:126,
+                 from /home/koen/CrealityPrint/deps/build/destdir/usr/local/include/boost/asio/ssl/impl/context.ipp:25,
+                 from /home/koen/CrealityPrint/deps/build/destdir/usr/local/include/boost/asio/ssl/context.hpp:761,
+                 from /home/koen/CrealityPrint/deps/build/destdir/usr/local/include/boost/asio/ssl.hpp:18,
+                 from /home/koen/CrealityPrint/src/slic3r/GUI/GUI_Utils.hpp:34,
+                 from /home/koen/CrealityPrint/src/slic3r/GUI/ConfigWizard.hpp:8,
+                 from /home/koen/CrealityPrint/src/slic3r/GUI/GUI_App.hpp:14,
+                 from /home/koen/CrealityPrint/src/slic3r/GUI/print_manage/App/PrinterMgrView.cpp:6:
+/home/koen/CrealityPrint/deps/build/destdir/usr/local/include/boost/asio/ssl/impl/error.ipp: In member function ‘virtual std::string boost::asio::error::detail::ssl_category::message(int) const’:
+/home/koen/CrealityPrint/deps/build/destdir/usr/local/include/boost/asio/ssl/impl/error.ipp:52: note: ‘-Wmisleading-indentation’ is disabled from this point onwards, since column-tracking was disabled due to the size of the code/headers
+   52 |         if (lib)
+/home/koen/CrealityPrint/deps/build/destdir/usr/local/include/boost/asio/ssl/impl/error.ipp:52: note: adding ‘-flarge-source-files’ will allow for more column-tracking support, at the expense of compilation time and memory
+In file included from /home/koen/CrealityPrint/src/slic3r/GUI/MainFrame.hpp:19,
+                 from /home/koen/CrealityPrint/src/slic3r/GUI/print_manage/App/PrinterMgrView.cpp:7:
+/home/koen/CrealityPrint/src/slic3r/GUI/UnsavedChangesDialog.hpp: In member function ‘std::vector<std::__cxx11::basic_string<char> > Slic3r::GUI::UnsavedChangesDialog::get_selected_options(Slic3r::Preset::Type)’:
+/home/koen/CrealityPrint/src/slic3r/GUI/UnsavedChangesDialog.hpp:365: warning: comparison of integer expressions of different signedness: ‘int’ and ‘std::vector<Slic3r::GUI::PresetItem>::size_type’ {aka ‘long unsigned int’} [-Wsign-compare]
+  365 |         for (int i = 0; i < m_presetitems.size(); i++) {
+/home/koen/CrealityPrint/src/slic3r/GUI/UnsavedChangesDialog.hpp: In member function ‘std::vector<std::__cxx11::basic_string<char> > Slic3r::GUI::UnsavedChangesDialog::get_selected_options()’:
+/home/koen/CrealityPrint/src/slic3r/GUI/UnsavedChangesDialog.hpp:377: warning: comparison of integer expressions of different signedness: ‘int’ and ‘std::vector<Slic3r::GUI::PresetItem>::size_type’ {aka ‘long unsigned int’} [-Wsign-compare]
+  377 |         for (int i = 0; i < m_presetitems.size(); i++)
+/home/koen/CrealityPrint/src/slic3r/GUI/UnsavedChangesDialog.hpp: In member function ‘std::vector<std::__cxx11::basic_string<char> > Slic3r::GUI::DiffPresetDialog::get_selected_options(Slic3r::Preset::Type) const’:
+/home/koen/CrealityPrint/src/slic3r/GUI/UnsavedChangesDialog.hpp:465: warning: moving a temporary object prevents copy elision [-Wpessimizing-move]
+  465 |     std::vector<std::string> get_selected_options(Preset::Type type) const { return std::move(m_tree->options(type, true)); }
+/home/koen/CrealityPrint/src/slic3r/GUI/UnsavedChangesDialog.hpp:465: note: remove ‘std::move’ call
+In file included from /home/koen/CrealityPrint/src/slic3r/GUI/GUI_ObjectList.hpp:15,
+                 from /home/koen/CrealityPrint/src/slic3r/GUI/Search.hpp:25,
+                 from /home/koen/CrealityPrint/src/slic3r/GUI/Plater.hpp:19,
+                 from /home/koen/CrealityPrint/src/slic3r/GUI/AmsMappingPopup.hpp:29,
+                 from /home/koen/CrealityPrint/src/slic3r/GUI/SelectMachine.hpp:27,
+                 from /home/koen/CrealityPrint/src/slic3r/GUI/BBLTopbar.hpp:6,
+                 from /home/koen/CrealityPrint/src/slic3r/GUI/MainFrame.hpp:24:
+/home/koen/CrealityPrint/src/slic3r/GUI/ObjectDataViewModel.hpp: In member function ‘int Slic3r::GUI::ObjectDataViewModelNode::GetChildIndex(Slic3r::GUI::ObjectDataViewModelNode*) const’:
+/home/koen/CrealityPrint/src/slic3r/GUI/ObjectDataViewModel.hpp:191: warning: comparison of integer expressions of different signedness: ‘int’ and ‘size_t’ {aka ‘long unsigned int’} [-Wsign-compare]
+  191 |         for (int index = 0; index < child_count; index++)
+/home/koen/CrealityPrint/src/slic3r/GUI/ObjectDataViewModel.hpp: In member function ‘Slic3r::GUI::t_layer_height_range Slic3r::GUI::ObjectDataViewModelNode::GetLayerRange() const’:
+/home/koen/CrealityPrint/src/slic3r/GUI/ObjectDataViewModel.hpp:246: note: parameter passing for argument of type ‘std::pair<double, double>’ when C++17 is enabled changed to match C++14 in GCC 10.1
+  246 |         t_layer_height_range    GetLayerRange() const   { return m_layer_range; }
+In file included from /home/koen/CrealityPrint/src/slic3r/GUI/MultiMachinePage.hpp:9,
+                 from /home/koen/CrealityPrint/src/slic3r/GUI/MainFrame.hpp:27:
+/home/koen/CrealityPrint/src/slic3r/GUI/Tabbook.hpp: In member function ‘virtual int Tabbook::SetSelection(size_t)’:
+/home/koen/CrealityPrint/src/slic3r/GUI/Tabbook.hpp:201: warning: unused variable ‘win_a’ [-Wunused-variable]
+  201 |             wxWindow* win_a = GetPage(page);
+/home/koen/CrealityPrint/src/slic3r/GUI/Tabbook.hpp:202: warning: unused variable ‘win_b’ [-Wunused-variable]
+  202 |             wxWindow* win_b = GetPage(n);
+In file included from /home/koen/CrealityPrint/src/slic3r/GUI/print_manage/App/PrinterMgrView.cpp:8:
+/home/koen/CrealityPrint/src/slic3r/GUI/Notebook.hpp: In member function ‘virtual int Notebook::SetSelection(size_t)’:
+/home/koen/CrealityPrint/src/slic3r/GUI/Notebook.hpp:200: warning: comparison of integer expressions of different signedness: ‘size_t’ {aka ‘long unsigned int’} and ‘int’ [-Wsign-compare]
+  200 |                 if(n == id)
+/home/koen/CrealityPrint/src/slic3r/GUI/Notebook.hpp:209: warning: comparison of integer expressions of different signedness: ‘int’ and ‘size_t’ {aka ‘long unsigned int’} [-Wsign-compare]
+  209 |         if (new_sel != n) {
+/home/koen/CrealityPrint/src/slic3r/GUI/Notebook.hpp:219: warning: unused variable ‘win_a’ [-Wunused-variable]
+  219 |             wxWindow* win_a = GetPage(page);
+/home/koen/CrealityPrint/src/slic3r/GUI/Notebook.hpp:220: warning: unused variable ‘win_b’ [-Wunused-variable]
+  220 |             wxWindow* win_b = GetPage(n);
+/home/koen/CrealityPrint/src/slic3r/GUI/Notebook.hpp: In member function ‘virtual wxString Notebook::GetPageText(size_t) const’:
+/home/koen/CrealityPrint/src/slic3r/GUI/Notebook.hpp:250: warning: suggest explicit braces to avoid ambiguous ‘else’ [-Wdangling-else]
+  250 |         if (nullptr != GetBtnsListCtrl())
+/home/koen/CrealityPrint/src/slic3r/GUI/print_manage/App/PrinterMgrView.cpp: In member function ‘void Slic3r::GUI::PrinterMgrView::initMqtt()’:
+/home/koen/CrealityPrint/src/slic3r/GUI/print_manage/App/PrinterMgrView.cpp:177: warning: unused variable ‘connected_’ [-Wunused-variable]
+  177 |     bool connected_ = false;
+/home/koen/CrealityPrint/src/slic3r/GUI/print_manage/App/PrinterMgrView.cpp: In lambda function:
+/home/koen/CrealityPrint/src/slic3r/GUI/print_manage/App/PrinterMgrView.cpp:545: warning: variable ‘deviceType’ set but not used [-Wunused-but-set-variable]
+  545 |                         int deviceType = 0;//local device
+/home/koen/CrealityPrint/src/slic3r/GUI/print_manage/App/PrinterMgrView.cpp: In member function ‘void Slic3r::GUI::PrinterMgrView::run_script(std::string)’:
+/home/koen/CrealityPrint/src/slic3r/GUI/print_manage/App/PrinterMgrView.cpp:968: warning: unused variable ‘backend_after’ [-Wunused-variable]
+  968 |     void* backend_after = m_browser->GetNativeBackend();
+In file included from /home/koen/CrealityPrint/src/slic3r/GUI/GLCanvas3D.hpp:20,
+                 from /home/koen/CrealityPrint/src/slic3r/GUI/PartPlate.hpp:14,
+                 from /home/koen/CrealityPrint/src/slic3r/GUI/print_manage/App/PrinterMgrView.cpp:9:
+/home/koen/CrealityPrint/src/slic3r/GUI/GCodeViewer.hpp: At global scope:
+/home/koen/CrealityPrint/src/slic3r/GUI/GCodeViewer.hpp:34: warning: ‘bool Slic3r::GUI::role_been_filtered_in_lite_mode(Slic3r::ExtrusionRole)’ defined but not used [-Wunused-function]
+   34 | static bool role_been_filtered_in_lite_mode(ExtrusionRole role)
+/home/koen/CrealityPrint/src/slic3r/GUI/SelectMachine.hpp:67: warning: ‘int Slic3r::GUI::get_brightness_value(wxImage)’ defined but not used [-Wunused-function]
+   67 | static int get_brightness_value(wxImage image) {
+/home/koen/CrealityPrint/src/slic3r/GUI/GUI_Utils.hpp:50: warning: ‘Slic3r::ColorRGBA Slic3r::GUI::decode_color_to_float_array(std::string)’ defined but not used [-Wunused-function]
+   50 | static ColorRGBA decode_color_to_float_array(const std::string color)
+[4/7] Building CXX object src/slic3r/CMakeFiles/libslic3r_gui.dir/GUI/print_manage/App/SendToPrinter.cpp.o
+In file included from /home/koen/CrealityPrint/deps/build/destdir/usr/local/include/boost/function/detail/requires_cxx11.hpp:9,
+                 from /home/koen/CrealityPrint/deps/build/destdir/usr/local/include/boost/function/detail/prologue.hpp:12,
+                 from /home/koen/CrealityPrint/deps/build/destdir/usr/local/include/boost/function.hpp:30,
+                 from /home/koen/CrealityPrint/deps/build/destdir/usr/local/include/boost/algorithm/string/detail/find_iterator.hpp:18,
+                 from /home/koen/CrealityPrint/deps/build/destdir/usr/local/include/boost/algorithm/string/find_iterator.hpp:24,
+                 from /home/koen/CrealityPrint/deps/build/destdir/usr/local/include/boost/algorithm/string/iter_find.hpp:27,
+                 from /home/koen/CrealityPrint/deps/build/destdir/usr/local/include/boost/algorithm/string/split.hpp:16,
+                 from /home/koen/CrealityPrint/deps/build/destdir/usr/local/include/boost/algorithm/string.hpp:23,
+                 from /home/koen/CrealityPrint/src/slic3r/pchheader.hpp:60,
+                 from /home/koen/CrealityPrint/build/src/slic3r/CMakeFiles/libslic3r_gui.dir/cmake_pch.hxx:5,
+                 from <command-line>:
+/home/koen/CrealityPrint/deps/build/destdir/usr/local/include/boost/bind.hpp:36:1: note: ‘#pragma message: The practice of declaring the Bind placeholders (_1, _2, ...) in the global namespace is deprecated. Please use <boost/bind/bind.hpp> + using namespace boost::placeholders, or define BOOST_BIND_GLOBAL_PLACEHOLDERS to retain the current behavior.’
+   36 | BOOST_PRAGMA_MESSAGE(
+      | ^~~~~~~~~~~~~~~~~~~~
+In file included from /home/koen/CrealityPrint/src/nlohmann/json.hpp:72,
+                 from /home/koen/CrealityPrint/src/libslic3r/AppConfig.hpp:7,
+                 from /home/koen/CrealityPrint/src/libslic3r/PresetBundle.hpp:5,
+                 from /home/koen/CrealityPrint/src/slic3r/GUI/GUI_App.hpp:17,
+                 from /home/koen/CrealityPrint/src/slic3r/GUI/print_manage/App/SendToPrinter.cpp:5:
+/home/koen/CrealityPrint/src/nlohmann/detail/output/binary_writer.hpp: In member function ‘void nlohmann::detail::binary_writer<BasicJsonType, CharType>::write_cbor(const BasicJsonType&)’:
+/home/koen/CrealityPrint/src/nlohmann/detail/output/binary_writer.hpp:177: note: ‘-Wmisleading-indentation’ is disabled from this point onwards, since column-tracking was disabled due to the size of the code/headers
+  177 |                 else if (j.m_value.number_unsigned <= (std::numeric_limits<std::uint32_t>::max)())
+/home/koen/CrealityPrint/src/nlohmann/detail/output/binary_writer.hpp:177: note: adding ‘-flarge-source-files’ will allow for more column-tracking support, at the expense of compilation time and memory
+In file included from /home/koen/CrealityPrint/src/slic3r/GUI/MainFrame.hpp:19,
+                 from /home/koen/CrealityPrint/src/slic3r/GUI/print_manage/App/SendToPrinter.cpp:6:
+/home/koen/CrealityPrint/src/slic3r/GUI/UnsavedChangesDialog.hpp: In member function ‘std::vector<std::__cxx11::basic_string<char> > Slic3r::GUI::UnsavedChangesDialog::get_selected_options(Slic3r::Preset::Type)’:
+/home/koen/CrealityPrint/src/slic3r/GUI/UnsavedChangesDialog.hpp:365: warning: comparison of integer expressions of different signedness: ‘int’ and ‘std::vector<Slic3r::GUI::PresetItem>::size_type’ {aka ‘long unsigned int’} [-Wsign-compare]
+  365 |         for (int i = 0; i < m_presetitems.size(); i++) {
+/home/koen/CrealityPrint/src/slic3r/GUI/UnsavedChangesDialog.hpp: In member function ‘std::vector<std::__cxx11::basic_string<char> > Slic3r::GUI::UnsavedChangesDialog::get_selected_options()’:
+/home/koen/CrealityPrint/src/slic3r/GUI/UnsavedChangesDialog.hpp:377: warning: comparison of integer expressions of different signedness: ‘int’ and ‘std::vector<Slic3r::GUI::PresetItem>::size_type’ {aka ‘long unsigned int’} [-Wsign-compare]
+  377 |         for (int i = 0; i < m_presetitems.size(); i++)
+/home/koen/CrealityPrint/src/slic3r/GUI/UnsavedChangesDialog.hpp: In member function ‘std::vector<std::__cxx11::basic_string<char> > Slic3r::GUI::DiffPresetDialog::get_selected_options(Slic3r::Preset::Type) const’:
+/home/koen/CrealityPrint/src/slic3r/GUI/UnsavedChangesDialog.hpp:465: warning: moving a temporary object prevents copy elision [-Wpessimizing-move]
+  465 |     std::vector<std::string> get_selected_options(Preset::Type type) const { return std::move(m_tree->options(type, true)); }
+/home/koen/CrealityPrint/src/slic3r/GUI/UnsavedChangesDialog.hpp:465: note: remove ‘std::move’ call
+In file included from /home/koen/CrealityPrint/src/slic3r/GUI/GUI_ObjectList.hpp:15,
+                 from /home/koen/CrealityPrint/src/slic3r/GUI/Search.hpp:25,
+                 from /home/koen/CrealityPrint/src/slic3r/GUI/Plater.hpp:19,
+                 from /home/koen/CrealityPrint/src/slic3r/GUI/AmsMappingPopup.hpp:29,
+                 from /home/koen/CrealityPrint/src/slic3r/GUI/SelectMachine.hpp:27,
+                 from /home/koen/CrealityPrint/src/slic3r/GUI/BBLTopbar.hpp:6,
+                 from /home/koen/CrealityPrint/src/slic3r/GUI/MainFrame.hpp:24:
+/home/koen/CrealityPrint/src/slic3r/GUI/ObjectDataViewModel.hpp: In member function ‘int Slic3r::GUI::ObjectDataViewModelNode::GetChildIndex(Slic3r::GUI::ObjectDataViewModelNode*) const’:
+/home/koen/CrealityPrint/src/slic3r/GUI/ObjectDataViewModel.hpp:191: warning: comparison of integer expressions of different signedness: ‘int’ and ‘size_t’ {aka ‘long unsigned int’} [-Wsign-compare]
+  191 |         for (int index = 0; index < child_count; index++)
+/home/koen/CrealityPrint/src/slic3r/GUI/ObjectDataViewModel.hpp: In member function ‘Slic3r::GUI::t_layer_height_range Slic3r::GUI::ObjectDataViewModelNode::GetLayerRange() const’:
+/home/koen/CrealityPrint/src/slic3r/GUI/ObjectDataViewModel.hpp:246: note: parameter passing for argument of type ‘std::pair<double, double>’ when C++17 is enabled changed to match C++14 in GCC 10.1
+  246 |         t_layer_height_range    GetLayerRange() const   { return m_layer_range; }
+In file included from /home/koen/CrealityPrint/src/slic3r/GUI/MultiMachinePage.hpp:9,
+                 from /home/koen/CrealityPrint/src/slic3r/GUI/MainFrame.hpp:27:
+/home/koen/CrealityPrint/src/slic3r/GUI/Tabbook.hpp: In member function ‘virtual int Tabbook::SetSelection(size_t)’:
+/home/koen/CrealityPrint/src/slic3r/GUI/Tabbook.hpp:201: warning: unused variable ‘win_a’ [-Wunused-variable]
+  201 |             wxWindow* win_a = GetPage(page);
+/home/koen/CrealityPrint/src/slic3r/GUI/Tabbook.hpp:202: warning: unused variable ‘win_b’ [-Wunused-variable]
+  202 |             wxWindow* win_b = GetPage(n);
+In file included from /home/koen/CrealityPrint/src/slic3r/GUI/print_manage/App/SendToPrinter.cpp:36:
+/home/koen/CrealityPrint/src/slic3r/GUI/Notebook.hpp: In member function ‘virtual int Notebook::SetSelection(size_t)’:
+/home/koen/CrealityPrint/src/slic3r/GUI/Notebook.hpp:200: warning: comparison of integer expressions of different signedness: ‘size_t’ {aka ‘long unsigned int’} and ‘int’ [-Wsign-compare]
+  200 |                 if(n == id)
+/home/koen/CrealityPrint/src/slic3r/GUI/Notebook.hpp:209: warning: comparison of integer expressions of different signedness: ‘int’ and ‘size_t’ {aka ‘long unsigned int’} [-Wsign-compare]
+  209 |         if (new_sel != n) {
+/home/koen/CrealityPrint/src/slic3r/GUI/Notebook.hpp:219: warning: unused variable ‘win_a’ [-Wunused-variable]
+  219 |             wxWindow* win_a = GetPage(page);
+/home/koen/CrealityPrint/src/slic3r/GUI/Notebook.hpp:220: warning: unused variable ‘win_b’ [-Wunused-variable]
+  220 |             wxWindow* win_b = GetPage(n);
+/home/koen/CrealityPrint/src/slic3r/GUI/Notebook.hpp: In member function ‘virtual wxString Notebook::GetPageText(size_t) const’:
+/home/koen/CrealityPrint/src/slic3r/GUI/Notebook.hpp:250: warning: suggest explicit braces to avoid ambiguous ‘else’ [-Wdangling-else]
+  250 |         if (nullptr != GetBtnsListCtrl())
+/home/koen/CrealityPrint/src/slic3r/GUI/print_manage/App/SendToPrinter.cpp: In member function ‘std::string Slic3r::GUI::CxSentToPrinterDialog::build_match_color_cmd_info(int, const std::string&)’:
+/home/koen/CrealityPrint/src/slic3r/GUI/print_manage/App/SendToPrinter.cpp:615: warning: comparison of integer expressions of different signedness: ‘std::vector<std::__cxx11::basic_string<char> >::size_type’ {aka ‘long unsigned int’} and ‘int’ [-Wsign-compare]
+  615 |             if(m_backup_extruder_colors.size() > (extruder-1)) {
+/home/koen/CrealityPrint/src/slic3r/GUI/print_manage/App/SendToPrinter.cpp: In member function ‘void Slic3r::GUI::CxSentToPrinterDialog::handle_cancel_send(const nlohmann::json&)’:
+/home/koen/CrealityPrint/src/slic3r/GUI/print_manage/App/SendToPrinter.cpp:840: warning: unused variable ‘plateIndex’ [-Wunused-variable]
+  840 |     int      plateIndex = json_data["plateIndex"];
+/home/koen/CrealityPrint/src/slic3r/GUI/print_manage/App/SendToPrinter.cpp: In member function ‘void Slic3r::GUI::CxSentToPrinterDialog::restore_extruder_colors()’:
+/home/koen/CrealityPrint/src/slic3r/GUI/print_manage/App/SendToPrinter.cpp:1075: warning: comparison of integer expressions of different signedness: ‘int’ and ‘std::vector<std::__cxx11::basic_string<char> >::size_type’ {aka ‘long unsigned int’} [-Wsign-compare]
+ 1075 |     for(int i = 0; i < m_backup_extruder_colors.size(); i++)
+/home/koen/CrealityPrint/src/slic3r/GUI/print_manage/App/SendToPrinter.cpp: In member function ‘std::string Slic3r::GUI::CxSentToPrinterDialog::get_onlygcode_plate_data_on_show()’:
+/home/koen/CrealityPrint/src/slic3r/GUI/print_manage/App/SendToPrinter.cpp:1177: warning: comparison of integer expressions of different signedness: ‘nlohmann::basic_json<>::size_type’ {aka ‘long unsigned int’} and ‘int’ [-Wsign-compare]
+ 1177 |                 if(colors_json.size()<=color_index)
+/home/koen/CrealityPrint/src/slic3r/GUI/print_manage/App/SendToPrinter.cpp: In member function ‘std::string Slic3r::GUI::CxSentToPrinterDialog::get_plate_data_on_show()’:
+/home/koen/CrealityPrint/src/slic3r/GUI/print_manage/App/SendToPrinter.cpp:1497: warning: unused variable ‘is_all_plates’ [-Wunused-variable]
+ 1497 |     bool is_all_plates = wxGetApp().plater()->get_preview_canvas3D()->is_all_plates_selected();
+/home/koen/CrealityPrint/src/slic3r/GUI/print_manage/App/SendToPrinter.cpp: In member function ‘void Slic3r::GUI::CxSentToPrinterDialog::get_filament_length_info(std::vector<int>, Slic3r::GUI::PartPlate*, nlohmann::json&)’:
+/home/koen/CrealityPrint/src/slic3r/GUI/print_manage/App/SendToPrinter.cpp:1714: warning: comparison of integer expressions of different signedness: ‘int’ and ‘std::vector<float>::size_type’ {aka ‘long unsigned int’} [-Wsign-compare]
+ 1714 |         if (idx >= filaments.size()|| total_volumes.find(idx) == total_volumes.end())
+In file included from /home/koen/CrealityPrint/src/slic3r/GUI/print_manage/App/SendToPrinter.cpp:51:
+/home/koen/CrealityPrint/src/libslic3r/common_header/common_header.h: At global scope:
+/home/koen/CrealityPrint/src/libslic3r/common_header/common_header.h:20: warning: ‘Slic3r::CxBuildInfo::g_is_dark’ defined but not used [-Wunused-variable]
+   20 | static bool       g_is_dark = true;
+In file included from /home/koen/CrealityPrint/src/slic3r/GUI/GLCanvas3D.hpp:20,
+                 from /home/koen/CrealityPrint/src/slic3r/GUI/PartPlate.hpp:14,
+                 from /home/koen/CrealityPrint/src/slic3r/GUI/print_manage/App/SendToPrinter.cpp:28:
+/home/koen/CrealityPrint/src/slic3r/GUI/GCodeViewer.hpp:34: warning: ‘bool Slic3r::GUI::role_been_filtered_in_lite_mode(Slic3r::ExtrusionRole)’ defined but not used [-Wunused-function]
+   34 | static bool role_been_filtered_in_lite_mode(ExtrusionRole role)
+/home/koen/CrealityPrint/src/slic3r/GUI/SelectMachine.hpp:67: warning: ‘int Slic3r::GUI::get_brightness_value(wxImage)’ defined but not used [-Wunused-function]
+   67 | static int get_brightness_value(wxImage image) {
+In file included from /home/koen/CrealityPrint/src/slic3r/GUI/print_manage/App/SendToPrinter.hpp:25,
+                 from /home/koen/CrealityPrint/src/slic3r/GUI/print_manage/App/SendToPrinter.cpp:1:
+/home/koen/CrealityPrint/src/slic3r/GUI/GUI_Utils.hpp:50:18: warning: ‘Slic3r::ColorRGBA Slic3r::GUI::decode_color_to_float_array(std::string)’ defined but not used [-Wunused-function]
+   50 | static ColorRGBA decode_color_to_float_array(const std::string color)
+      |                  ^~~~~~~~~~~~~~~~~~~~~~~~~~~
+[5/7] Building CXX object src/slic3r/CMakeFiles/libslic3r_gui.dir/GUI/HttpServer.cpp.o
+In file included from /home/koen/CrealityPrint/deps/build/destdir/usr/local/include/boost/function/detail/requires_cxx11.hpp:9,
+                 from /home/koen/CrealityPrint/deps/build/destdir/usr/local/include/boost/function/detail/prologue.hpp:12,
+                 from /home/koen/CrealityPrint/deps/build/destdir/usr/local/include/boost/function.hpp:30,
+                 from /home/koen/CrealityPrint/deps/build/destdir/usr/local/include/boost/algorithm/string/detail/find_iterator.hpp:18,
+                 from /home/koen/CrealityPrint/deps/build/destdir/usr/local/include/boost/algorithm/string/find_iterator.hpp:24,
+                 from /home/koen/CrealityPrint/deps/build/destdir/usr/local/include/boost/algorithm/string/iter_find.hpp:27,
+                 from /home/koen/CrealityPrint/deps/build/destdir/usr/local/include/boost/algorithm/string/split.hpp:16,
+                 from /home/koen/CrealityPrint/deps/build/destdir/usr/local/include/boost/algorithm/string.hpp:23,
+                 from /home/koen/CrealityPrint/src/slic3r/pchheader.hpp:60,
+                 from /home/koen/CrealityPrint/build/src/slic3r/CMakeFiles/libslic3r_gui.dir/cmake_pch.hxx:5,
+                 from <command-line>:
+/home/koen/CrealityPrint/deps/build/destdir/usr/local/include/boost/bind.hpp:36:1: note: ‘#pragma message: The practice of declaring the Bind placeholders (_1, _2, ...) in the global namespace is deprecated. Please use <boost/bind/bind.hpp> + using namespace boost::placeholders, or define BOOST_BIND_GLOBAL_PLACEHOLDERS to retain the current behavior.’
+   36 | BOOST_PRAGMA_MESSAGE(
+      | ^~~~~~~~~~~~~~~~~~~~
+In file included from /home/koen/CrealityPrint/deps/build/destdir/usr/local/include/boost/asio/ssl/error.hpp:126,
+                 from /home/koen/CrealityPrint/deps/build/destdir/usr/local/include/boost/asio/ssl/impl/context.ipp:25,
+                 from /home/koen/CrealityPrint/deps/build/destdir/usr/local/include/boost/asio/ssl/context.hpp:761,
+                 from /home/koen/CrealityPrint/deps/build/destdir/usr/local/include/boost/asio/ssl.hpp:18,
+                 from /home/koen/CrealityPrint/src/slic3r/GUI/GUI_Utils.hpp:34,
+                 from /home/koen/CrealityPrint/src/slic3r/GUI/ConfigWizard.hpp:8,
+                 from /home/koen/CrealityPrint/src/slic3r/GUI/GUI_App.hpp:14,
+                 from /home/koen/CrealityPrint/src/slic3r/GUI/HttpServer.cpp:3:
+/home/koen/CrealityPrint/deps/build/destdir/usr/local/include/boost/asio/ssl/impl/error.ipp: In member function ‘virtual std::string boost::asio::error::detail::ssl_category::message(int) const’:
+/home/koen/CrealityPrint/deps/build/destdir/usr/local/include/boost/asio/ssl/impl/error.ipp:52: note: ‘-Wmisleading-indentation’ is disabled from this point onwards, since column-tracking was disabled due to the size of the code/headers
+   52 |         if (lib)
+/home/koen/CrealityPrint/deps/build/destdir/usr/local/include/boost/asio/ssl/impl/error.ipp:52: note: adding ‘-flarge-source-files’ will allow for more column-tracking support, at the expense of compilation time and memory
+/home/koen/CrealityPrint/src/slic3r/GUI/HttpServer.cpp: In static member function ‘static std::shared_ptr<Slic3r::GUI::HttpServer::Response> Slic3r::GUI::HttpServer::creality_handle_request(const std::string&)’:
+/home/koen/CrealityPrint/src/slic3r/GUI/HttpServer.cpp:744: warning: ‘std::string boost::filesystem::extension(const path&)’ is deprecated: Use path::extension() instead [-Wdeprecated-declarations]
+  744 |         std::string file_extension = fs::extension(file_path);
+In file included from /home/koen/CrealityPrint/deps/build/destdir/usr/local/include/boost/filesystem.hpp:21,
+                 from /home/koen/CrealityPrint/src/slic3r/pchheader.hpp:70:
+/home/koen/CrealityPrint/deps/build/destdir/usr/local/include/boost/filesystem/convenience.hpp:29:20: note: declared here
+   29 | inline std::string extension(const path& p)
+      |                    ^~~~~~~~~
+/home/koen/CrealityPrint/src/slic3r/GUI/GUI_Utils.hpp: At global scope:
+/home/koen/CrealityPrint/src/slic3r/GUI/GUI_Utils.hpp:50: warning: ‘Slic3r::ColorRGBA Slic3r::GUI::decode_color_to_float_array(std::string)’ defined but not used [-Wunused-function]
+   50 | static ColorRGBA decode_color_to_float_array(const std::string color)
+[6/7] Linking CXX static library src/slic3r/liblibslic3r_gui.a
+[7/7] Linking CXX executable src/CrealityPrint
+FAILED: src/CrealityPrint 
+: && /usr/bin/c++ -fext-numeric-literals -Wall -Wno-reorder -pthread -O3 -DNDEBUG -Wl,--dependency-file=src/CMakeFiles/CrealityPrint_Slicer.dir/link.d src/CMakeFiles/CrealityPrint_Slicer.dir/CrealityPrint.cpp.o src/CMakeFiles/CrealityPrint_Slicer.dir/CrealityrintDump.cpp.o -o src/CrealityPrint -L/home/koen/CrealityPrint/deps/build/destdir/usr/local/lib -Wl,-rpath,/home/koen/CrealityPrint/deps/build/destdir/usr/local/lib:  src/libslic3r/liblibslic3r.a  src/libslic3r/liblibslic3r.a  /home/koen/CrealityPrint/deps/build/destdir/usr/local/lib/libassimp.a  /home/koen/CrealityPrint/deps/build/destdir/usr/local/lib/libcr_tpms_library.a  -ldl  -lstdc++  -lpangoft2-1.0  src/slic3r/liblibslic3r_gui.a  -ldl  src/libslic3r/liblibslic3r.a  src/libnest2d/liblibnest2d.a  src/libslic3r/liblibslic3r.a  src/libnest2d/liblibnest2d.a  src/admesh/libadmesh.a  src/miniz/libminiz_static.a  src/clipper/libclipper.a  src/glu-libtess/libglu-libtess.a  /home/koen/CrealityPrint/deps/build/destdir/usr/local/lib/libqhullcpp.a  /home/koen/CrealityPrint/deps/build/destdir/usr/local/lib/libqhullstatic_r.a  src/semver/libsemver.a  src/libslic3r/liblibslic3r_cgal.a  /home/koen/CrealityPrint/deps/build/destdir/usr/local/lib/libpng.a  /home/koen/CrealityPrint/deps/build/destdir/usr/local/lib/libTKXDESTEP.a  /home/koen/CrealityPrint/deps/build/destdir/usr/local/lib/libTKSTEP.a  /home/koen/CrealityPrint/deps/build/destdir/usr/local/lib/libTKSTEP209.a  /home/koen/CrealityPrint/deps/build/destdir/usr/local/lib/libTKSTEPAttr.a  /home/koen/CrealityPrint/deps/build/destdir/usr/local/lib/libTKSTEPBase.a  /home/koen/CrealityPrint/deps/build/destdir/usr/local/lib/libTKXCAF.a  /home/koen/CrealityPrint/deps/build/destdir/usr/local/lib/libTKXSBase.a  /home/koen/CrealityPrint/deps/build/destdir/usr/local/lib/libTKVCAF.a  /home/koen/CrealityPrint/deps/build/destdir/usr/local/lib/libTKCAF.a  /home/koen/CrealityPrint/deps/build/destdir/usr/local/lib/libTKLCAF.a  /home/koen/CrealityPrint/deps/build/destdir/usr/local/lib/libTKCDF.a  /home/koen/CrealityPrint/deps/build/destdir/usr/local/lib/libTKV3d.a  /home/koen/CrealityPrint/deps/build/destdir/usr/local/lib/libTKService.a  /home/koen/CrealityPrint/deps/build/destdir/usr/local/lib/libTKMesh.a  /home/koen/CrealityPrint/deps/build/destdir/usr/local/lib/libTKBO.a  /home/koen/CrealityPrint/deps/build/destdir/usr/local/lib/libTKPrim.a  /home/koen/CrealityPrint/deps/build/destdir/usr/local/lib/libTKHLR.a  /home/koen/CrealityPrint/deps/build/destdir/usr/local/lib/libTKShHealing.a  /home/koen/CrealityPrint/deps/build/destdir/usr/local/lib/libTKTopAlgo.a  /home/koen/CrealityPrint/deps/build/destdir/usr/local/lib/libTKGeomAlgo.a  /home/koen/CrealityPrint/deps/build/destdir/usr/local/lib/libTKBRep.a  /home/koen/CrealityPrint/deps/build/destdir/usr/local/lib/libTKGeomBase.a  /home/koen/CrealityPrint/deps/build/destdir/usr/local/lib/libTKG3d.a  /home/koen/CrealityPrint/deps/build/destdir/usr/local/lib/libTKG2d.a  /home/koen/CrealityPrint/deps/build/destdir/usr/local/lib/libTKMath.a  /home/koen/CrealityPrint/deps/build/destdir/usr/local/lib/libTKernel.a  src/clipper2/libClipper2.a  -lm  src/mcut/libmcut.a  /home/koen/CrealityPrint/deps/build/destdir/usr/local/lib/libjpeg.a  src/qoi/libqoi.a  /home/koen/CrealityPrint/deps/build/destdir/usr/local/lib/libopencv_world.a  /home/koen/CrealityPrint/deps/build/destdir/usr/local/lib/opencv4/3rdparty/libtegra_hal.a  /home/koen/CrealityPrint/deps/build/destdir/usr/local/lib/opencv4/3rdparty/liblibjpeg-turbo.a  src/boost/libnowide.a  /home/koen/CrealityPrint/deps/build/destdir/usr/local/lib/libgmpxx.a  /home/koen/CrealityPrint/deps/build/destdir/usr/local/lib/libmpfr.a  /home/koen/CrealityPrint/deps/build/destdir/usr/local/lib/libgmp.a  -lfreetype  -ldeflate  -lLerc  /home/koen/CrealityPrint/deps/build/destdir/usr/local/lib/libopenvdb.a  /home/koen/CrealityPrint/deps/build/destdir/usr/local/lib/libHalf-2_5.a  /home/koen/CrealityPrint/deps/build/destdir/usr/local/lib/libblosc.a  /home/koen/CrealityPrint/deps/build/destdir/usr/local/lib/libtbb.a  /home/koen/CrealityPrint/deps/build/destdir/usr/local/lib/libtbbmalloc.a  /home/koen/CrealityPrint/deps/build/destdir/usr/local/lib/libnlopt.a  src/imguizmo/libimguizmo.a  src/imgui/libimgui.a  src/minilzo/libminilzo_static.a  /home/koen/CrealityPrint/deps/build/destdir/usr/local/lib/libGLEW.a  /usr/lib/aarch64-linux-gnu/libGL.so  src/hidapi/libhidapi.a  -L/home/koen/CrealityPrint/deps/build/destdir/usr/local//lib  -pthread  /home/koen/CrealityPrint/deps/build/destdir/usr/local//lib/libwx_gtk3u_gl-3.1.a  /home/koen/CrealityPrint/deps/build/destdir/usr/local//lib/libwx_gtk3u_aui-3.1.a  /home/koen/CrealityPrint/deps/build/destdir/usr/local//lib/libwx_baseu_net-3.1.a  /home/koen/CrealityPrint/deps/build/destdir/usr/local//lib/libwx_gtk3u_media-3.1.a  /home/koen/CrealityPrint/deps/build/destdir/usr/local//lib/libwx_gtk3u_webview-3.1.a  /home/koen/CrealityPrint/deps/build/destdir/usr/local//lib/libwx_gtk3u_html-3.1.a  /home/koen/CrealityPrint/deps/build/destdir/usr/local//lib/libwx_gtk3u_core-3.1.a  /home/koen/CrealityPrint/deps/build/destdir/usr/local//lib/libwx_baseu-3.1.a  /home/koen/CrealityPrint/deps/build/destdir/usr/local/lib/libssl.a  /home/koen/CrealityPrint/deps/build/destdir/usr/local/lib/libcrypto.a  /home/koen/CrealityPrint/deps/build/destdir/usr/local/lib/libpaho-mqttpp3.a  /home/koen/CrealityPrint/deps/build/destdir/usr/local/lib/libpaho-mqtt3a.a  -lc  -lpthread  -lanl  /home/koen/CrealityPrint/deps/build/destdir/usr/local/lib/libglfw3.a  -lm  /usr/lib/aarch64-linux-gnu/libwayland-cursor.so  /home/koen/CrealityPrint/deps/build/destdir/usr/local/lib/libcurl.a  src/video/libwebrtc_video.a  /home/koen/CrealityPrint/deps/build/destdir/usr/local/lib/libboost_log.a  /home/koen/CrealityPrint/deps/build/destdir/usr/local/lib/libboost_filesystem.a  -lrt  /home/koen/CrealityPrint/deps/build/destdir/usr/local/lib/libboost_coroutine.a  /home/koen/CrealityPrint/deps/build/destdir/usr/local/lib/libboost_context.a  /home/koen/CrealityPrint/deps/build/destdir/usr/local/lib/libboost_locale.a  /home/koen/CrealityPrint/deps/build/destdir/usr/local/lib/libboost_thread.a  /home/koen/CrealityPrint/deps/build/destdir/usr/local/lib/libboost_chrono.a  /home/koen/CrealityPrint/deps/build/destdir/usr/local/lib/libboost_atomic.a  /home/koen/CrealityPrint/deps/build/destdir/usr/local/lib/libboost_date_time.a  /home/koen/CrealityPrint/deps/build/destdir/usr/local/lib/libboost_exception.a  /home/koen/CrealityPrint/deps/build/destdir/usr/local/lib/libboost_iostreams.a  /usr/lib/aarch64-linux-gnu/libz.so  /home/koen/CrealityPrint/deps/build/destdir/usr/local/lib/libboost_random.a  /usr/lib/aarch64-linux-gnu/libbz2.so  /usr/lib/aarch64-linux-gnu/liblzma.so  /usr/lib/aarch64-linux-gnu/libzstd.so.1.5.7  /home/koen/CrealityPrint/deps/build/destdir/usr/local/lib/libboost_program_options.a  /home/koen/CrealityPrint/deps/build/destdir/usr/local/lib/libboost_container.a  /home/koen/CrealityPrint/deps/build/destdir/usr/local/lib/libavformat.a  /home/koen/CrealityPrint/deps/build/destdir/usr/local/lib/libavcodec.a  /home/koen/CrealityPrint/deps/build/destdir/usr/local/lib/libavutil.a  /home/koen/CrealityPrint/deps/build/destdir/usr/local/lib/libswresample.a  /home/koen/CrealityPrint/deps/build/destdir/usr/local/lib/libswscale.a  /home/koen/CrealityPrint/deps/build/destdir/usr/local/lib/libavfilter.a  -lx264  /home/koen/CrealityPrint/deps/build/destdir/usr/local/lib/libmetartc6.a  /home/koen/CrealityPrint/deps/build/destdir/usr/local/lib/libmetartccore6.a  -lusrsctp  -lsrtp2  -lasound  -lopus  -lspeexdsp  -llzma  /home/koen/CrealityPrint/deps/build/destdir/usr/local/lib/libssl.a  /home/koen/CrealityPrint/deps/build/destdir/usr/local/lib/libcrypto.a  /usr/lib/aarch64-linux-gnu/libEGL.so  /usr/lib/aarch64-linux-gnu/libOpenGL.so  -lgtk-3  -lgdk-3  -lz  -lpangocairo-1.0  -lpango-1.0  -lharfbuzz  -latk-1.0  -lcairo-gobject  -lcairo  -lgdk_pixbuf-2.0  -lgio-2.0  -lgobject-2.0  -lglib-2.0  -lSM  -lICE  -lX11  -lXext  -lEGL  -lwayland-egl  -lwayland-client  -lgstreamer-1.0  -lgstvideo-1.0  -lsoup-3.0  -lwebkit2gtk-4.1  -ljavascriptcoregtk-4.1  -lwx_gtk3u_core-3.1  -lmspack  -lwx_baseu-3.1  -lz  -lfontconfig  -lpangoft2-1.0  -lwxregexu-3.1  -lsecret-1  -lc  /home/koen/CrealityPrint/deps/build/destdir/usr/local/lib/libjpeg.a  /home/koen/CrealityPrint/deps/build/destdir/usr/local/lib/libalibabacloud-oss-cpp-sdk.a  /usr/lib/aarch64-linux-gnu/libdbus-1.so  /usr/lib/aarch64-linux-gnu/libwayland-server.so  /home/koen/CrealityPrint/deps/build/destdir/usr/local/lib/libcurl.a  -lspnav  -lgstreamer-1.0  -lgstbase-1.0  -lgtk-3  -lgdk-3  -lz  -lpangocairo-1.0  -lpango-1.0  -lharfbuzz  -latk-1.0  -lcairo-gobject  -lcairo  -lgdk_pixbuf-2.0  -lgio-2.0  -lgobject-2.0  -lglib-2.0  -lSM  -lICE  -lX11  -lXext  -lEGL  -lwayland-egl  -lwayland-client  -lgstreamer-1.0  -lgstvideo-1.0  -lsoup-3.0  -lwebkit2gtk-4.1  -ljavascriptcoregtk-4.1  -lwx_gtk3u_core-3.1  -lmspack  -lwx_baseu-3.1  -lz  -lfontconfig  -lpangoft2-1.0  -lwxregexu-3.1  -lsecret-1  -lc  /home/koen/CrealityPrint/deps/build/destdir/usr/local/lib/libjpeg.a  /home/koen/CrealityPrint/deps/build/destdir/usr/local/lib/libalibabacloud-oss-cpp-sdk.a  /usr/lib/aarch64-linux-gnu/libdbus-1.so  /usr/lib/aarch64-linux-gnu/libwayland-server.so  /home/koen/CrealityPrint/deps/build/destdir/usr/local/lib/libcurl.a  -lspnav  -lgstreamer-1.0  -lgstbase-1.0  -ldl  /home/koen/CrealityPrint/deps/build/destdir/usr/local/lib/libpng.a  /usr/lib/aarch64-linux-gnu/libz.so  -lm  /home/koen/CrealityPrint/deps/build/destdir/usr/local/lib/libtiff.a  /usr/lib/aarch64-linux-gnu/libexpat.so  /usr/lib/aarch64-linux-gnu/librt.a  /usr/lib/aarch64-linux-gnu/libwayland-egl.so  /usr/lib/aarch64-linux-gnu/libwayland-client.so  -lfontconfig && cd /home/koen/CrealityPrint/build/src && ln -sfn /home/koen/CrealityPrint/resources /home/koen/CrealityPrint/build/src/../resources
+/home/koen/CrealityPrint/deps/build/dep_TBB-prefix/src/dep_TBB/src/tbb/../../include/oneapi/tbb/detail/../profiling.h:68:10: warning: type ‘tbb::detail::d1::notify_type’ violates the C++ One Definition Rule [-Wodr]
+   68 |     enum notify_type {prepare=0, cancel, acquired, releasing, destroy};
+      |          ^
+/home/koen/CrealityPrint/deps/build/dep_TBB-prefix/src/dep_TBB/src/tbbmalloc/Customize.h:95:10: note: an enum with different number of values is defined in another translation unit
+   95 |     enum notify_type {prepare=0, cancel, acquired, releasing};
+      |          ^
+lto-wrapper: warning: using serial compilation of 3 LTRANS jobs
+lto-wrapper: note: see the ‘-flto’ option documentation for more information
+/usr/bin/ld: src/libslic3r/liblibslic3r.a(FillTpmsGradual.cpp.o): in function `tbb::detail::d1::start_for<tbb::detail::d1::blocked_range<unsigned long>, Slic3r::FillTpmsGradual::cal_scalar_field(Slic3r::FillParams const&, std::vector<std::vector<Slic3r::MarchingSquares::Point, std::allocator<Slic3r::MarchingSquares::Point> >, std::allocator<std::vector<Slic3r::MarchingSquares::Point, std::allocator<Slic3r::MarchingSquares::Point> > > >&, std::vector<std::vector<double, std::allocator<double> >, std::allocator<std::vector<double, std::allocator<double> > > >&)::{lambda(tbb::detail::d1::blocked_range<unsigned long> const&)#1}, tbb::detail::d1::auto_partitioner const>::execute(tbb::detail::d1::execution_data&)':
+FillTpmsGradual.cpp:(.text+0x564): undefined reference to `scalar_function_test'
+/usr/bin/ld: FillTpmsGradual.cpp:(.text+0x814): undefined reference to `scalar_function_test'
+/usr/bin/ld: /home/koen/CrealityPrint/deps/build/destdir/usr/local/lib/libtiff.a(tif_lerc.c.o): in function `LERCCleanup':
+tif_lerc.c:(.text+0x1d4): undefined reference to `libdeflate_free_decompressor'
+/usr/bin/ld: tif_lerc.c:(.text+0x1e0): undefined reference to `libdeflate_free_compressor'
+/usr/bin/ld: /home/koen/CrealityPrint/deps/build/destdir/usr/local/lib/libtiff.a(tif_lerc.c.o): in function `LERCVSetField':
+tif_lerc.c:(.text+0x3b8): undefined reference to `libdeflate_free_compressor'
+/usr/bin/ld: /home/koen/CrealityPrint/deps/build/destdir/usr/local/lib/libtiff.a(tif_lerc.c.o): in function `LERCPostEncode':
+tif_lerc.c:(.text+0xad4): undefined reference to `lerc_encodeForVersion'
+/usr/bin/ld: tif_lerc.c:(.text+0xce0): undefined reference to `libdeflate_zlib_compress_bound'
+/usr/bin/ld: tif_lerc.c:(.text+0xd00): undefined reference to `libdeflate_zlib_compress'
+/usr/bin/ld: tif_lerc.c:(.text+0xda0): undefined reference to `libdeflate_alloc_compressor'
+/usr/bin/ld: /home/koen/CrealityPrint/deps/build/destdir/usr/local/lib/libtiff.a(tif_lerc.c.o): in function `LERCPreDecode':
+tif_lerc.c:(.text+0x12a4): undefined reference to `libdeflate_zlib_decompress'
+/usr/bin/ld: tif_lerc.c:(.text+0x133c): undefined reference to `lerc_getBlobInfo'
+/usr/bin/ld: tif_lerc.c:(.text+0x140c): undefined reference to `lerc_decode'
+/usr/bin/ld: tif_lerc.c:(.text+0x1890): undefined reference to `libdeflate_alloc_decompressor'
+/usr/bin/ld: tif_lerc.c:(.text+0x1a08): undefined reference to `lerc_decode'
+/usr/bin/ld: /home/koen/CrealityPrint/deps/build/destdir/usr/local/lib/libtiff.a(tif_zip.c.o): in function `ZIPCleanup':
+tif_zip.c:(.text+0xfc): undefined reference to `libdeflate_free_decompressor'
+/usr/bin/ld: tif_zip.c:(.text+0x108): undefined reference to `libdeflate_free_compressor'
+/usr/bin/ld: /home/koen/CrealityPrint/deps/build/destdir/usr/local/lib/libtiff.a(tif_zip.c.o): in function `ZIPEncode':
+tif_zip.c:(.text+0x2b0): undefined reference to `libdeflate_zlib_compress_bound'
+/usr/bin/ld: tif_zip.c:(.text+0x2d8): undefined reference to `libdeflate_zlib_compress'
+/usr/bin/ld: tif_zip.c:(.text+0x334): undefined reference to `libdeflate_alloc_compressor'
+/usr/bin/ld: /home/koen/CrealityPrint/deps/build/destdir/usr/local/lib/libtiff.a(tif_zip.c.o): in function `ZIPDecode':
+tif_zip.c:(.text+0x714): undefined reference to `libdeflate_zlib_decompress'
+/usr/bin/ld: tif_zip.c:(.text+0x7f4): undefined reference to `libdeflate_alloc_decompressor'
+/usr/bin/ld: /home/koen/CrealityPrint/deps/build/destdir/usr/local/lib/libtiff.a(tif_zip.c.o): in function `ZIPVSetField':
+tif_zip.c:(.text+0x9d8): undefined reference to `libdeflate_free_compressor'
+collect2: error: ld returned 1 exit status
 ninja: build stopped: subcommand failed.

@@ -1,3 +1,5 @@
+set(patch_command git init && ${PATCH_CMD} ${CMAKE_CURRENT_LIST_DIR}/metartc_fix_pointer.patch)
+
 if(CMAKE_SYSTEM_NAME STREQUAL "Linux")
 orcaslicer_add_cmake_project(metartc
   # GIT_REPOSITORY https://github.com/aliyun/aliyun-oss-cpp-sdk.git

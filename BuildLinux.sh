@@ -182,7 +182,7 @@ then
         -DSLIC3R_STATIC=1 \
         -DORCA_TOOLS=ON \
         -DGENERATE_ORCA_HEADER=0 \
-        -DENABLE_BREAKPAD=ON \
+        -DENABLE_BREAKPAD=OFF \
         ${BUILD_ARGS}
     echo "done"
     echo "Building CrealityPrint ..."

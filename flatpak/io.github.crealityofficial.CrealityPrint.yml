@@ -370,6 +370,7 @@ modules:
         export CXXFLAGS=""
         mkdir -p build
         cmake . -B build \
+          -DUSE_CRTPMS=OFF \
           -GNinja \
           -DENABLE_BREAKPAD=OFF \
           -DCMAKE_C_COMPILER=clang \

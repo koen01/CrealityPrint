@@ -1,0 +1,11 @@
+--- libmetartccore6/src/yangrtc/YangRtcConnection.c	2025-10-04 12:51:11.678448083 +0200
++++ libmetartccore6/src/yangrtc/YangRtcConnection.c	2025-10-04 12:51:28.150539071 +0200
+@@ -754,7 +754,7 @@
+ 	YangRtcSession* session=(YangRtcSession*)conn->session;
+ 	session->activeState = yangfalse;
+ 	//yang_stop(session->20ms);
+-	YangRtcSocketSession *sock = session->context.sock;
++	YangRtcSocket *sock = session->context.sock;
+ 	if (sock == NULL)	return;
+ 	sock->isLoop = yangfalse;
+ 	while (sock->isStart)	yang_usleep(1000);
